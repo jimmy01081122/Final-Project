@@ -374,17 +374,32 @@ def ga_simple(tsp_instance, seed):
         plot_evolution(min_list, avg_list)
 
 
-def ga_advanced(tsp_instance, seed):
+def ga_advanced_params(tsp_instance, seed, population_size=100, max_gens=1000,
+                       cx_prob=0.9, mut_prob=0.1, tournament_size=4):
+    """Run the advanced GA with user supplied parameters.
+
+    Parameters
+    ----------
+    tsp_instance : TSPInstance
+        Instance describing the problem.
+    seed : int
+        Random seed for reproducibility.
+    population_size : int, optional
+        Initial population size.
+    max_gens : int, optional
+        Number of generations to evolve.
+    cx_prob : float, optional
+        Crossover probability.
+    mut_prob : float, optional
+        Mutation probability.
+    tournament_size : int, optional
+        Size of tournament for selection.
+
+    Returns
+    -------
+    int
+        Best route cost found.
     """
-    Advanced GA to solve TSP with custom selection, crossover, mutation, and partial 2-Opt local search steps.
-    :param tsp_instance: TSPInstance object.
-    :param seed: Random seed to control reproducibility.
-    """
-    population_size = 100
-    max_gens = 1000
-    cx_prob = 0.9
-    mut_prob = 0.1
-    tournament_size = 4
     n_cities = tsp_instance.n
 
     random.seed(seed)
@@ -491,6 +506,13 @@ def ga_advanced(tsp_instance, seed):
     if tsp_instance.plot_enabled:
         min_values, avg_values = logbook.select("min", "avg")
         plot_evolution(min_values, avg_values)
+
+    return min(costs_history)
+
+
+def ga_advanced(tsp_instance, seed):
+    """Wrapper for backward compatibility using default GA parameters."""
+    return ga_advanced_params(tsp_instance, seed)
 
 
 def plot_evolution(min_values, avg_values):
