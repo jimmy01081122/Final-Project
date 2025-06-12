@@ -139,6 +139,9 @@ pip install deap numpy matplotlib tsplib95 ipython
 * ✅ 執行過程會產生 `.log` 檔，紀錄所有 print 資訊
 * ✅ 成本演化圖與參數調整結果自動視覺化
 
+## Note
+please ignore the file "tsp.py & adaptive.py"
+
 
 ## License
 This repository is licensed under the MIT License. You are free to modify, share, and use this code for your own projects.
