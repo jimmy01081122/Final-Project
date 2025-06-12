@@ -1,0 +1,4 @@
+source -s abc.rc
+read_aiger tsp.aig
+zero
+pdr -v

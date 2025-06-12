@@ -1,0 +1,90 @@
+Turn to .AIG
+###################################################################
+# Using GV https://github.com/DVLab-NTU/gv from DVLab-NTU/gv
+# 1. ./gv 
+# 2. cirread -v design/SoCV/peg/case.v
+# 3. print info -verbose
+# 4. cirwrite -aig -output tsp.aig
+# 5. cirprint
+####################################################################
+
+
+Explain : (ABC & Shell Command)
+##############################################
+#  Record the data to log 
+#       1. abc 是可執行檔，不需要包在 " 裡。
+#
+#       2. -c "..." 是傳給 abc 的指令序列。
+# 
+#       3. > bmc.log 2>&1：把標準輸出與錯誤一起導入 log 檔。
+# 
+#       4. /usr/bin/time -v：會在 log 裡加入記憶體用量、CPU 時間等資訊。 
+#
+#       5. mkdir -p bmc3 若資料夾 bmc3 不存在，則建立它（-p 可避免報錯）。
+#
+#       6. &&：若前面的指令成功，才執行後面的 ABC 分析。
+#
+#       7. > bmc3/bmc3.log 2>&1：將 stdout 和 stderr 都導入 bmc3/bmc3.log
+##############################################
+
+# ========================================= 3x3 =======================================================
+# ========================================= BMC =======================================================
+BMC : mkdir -p bmc && /usr/bin/time -v abc -c "read peg3x3.aig; zero; bmc -v -F 120; quit" > bmc/bmc.log 2>&1
+
+BMC2 : mkdir -p bmc2 && /usr/bin/time -v abc -c "read peg3x3.aig; zero; bmc2 -v -F 120; quit" > bmc2/bmc2.log 2>&1
+
+BMC3 : mkdir -p bmc3 && /usr/bin/time -v abc -c "read peg3x3.aig; zero; bmc3 -v -F 120; quit" > bmc3/bmc3.log 2>&1
+
+# (Not Found) BMC3s : mkdir -p bmc3s && /usr/bin/time -v abc -c "read peg3x3.aig; zero; bmc3s -v -F 120; quit" > bmc3s.log 2>&1
+# (Not Found) BMC3g : mkdir -p bmc3g && /usr/bin/time -v abc -c "read peg3x3.aig; zero; bmc -v -F 120; quit" > bmc3g.log 2>&1
+# ref : MAB-BMC: A Formal Verification Enhancer by Harnessing Multiple BMC Engines Together : https://dl.acm.org/doi/10.1145/3675168
+
+# ========================================= INT =======================================================
+INT : mkdir -p INT && /usr/bin/time -v abc -c "read peg3x3.aig; zero; int -v ; quit" > INT/int.log 2>&1
+
+# ========================================= PDR =======================================================
+pdr : mkdir -p pdr && /usr/bin/time -v abc -c "read peg3x3.aig; zero; pdr -v; quit" > pdr/pdr.log 2>&1
+# https://github.com/berkeley-abc/abc/issues/281
+
+
+
+# ========================================= 7x7 =======================================================
+# ========================================= BMC =======================================================
+BMC : mkdir -p bmc && /usr/bin/time -v abc -c "read peg7x7.aig; zero; bmc -v -F 120; quit" > bmc/bmc.log 2>&1
+
+BMC2 : mkdir -p bmc2 && /usr/bin/time -v abc -c "read peg7x7.aig; zero; bmc2 -v -F 120; quit" > bmc2/bmc2.log 2>&1
+
+BMC3 : mkdir -p bmc3 && /usr/bin/time -v abc -c "read peg7x7.aig; zero; bmc3 -v -F 120; quit" > bmc3/bmc3.log 2>&1
+
+# (Not Found) BMC3s : mkdir -p bmc3s && /usr/bin/time -v abc -c "read peg7x7.aig; zero; bmc3s -v -F 120; quit" > bmc3s.log 2>&1
+# (Not Found) BMC3g : mkdir -p bmc3g && /usr/bin/time -v abc -c "read peg7x7.aig; zero; bmc -v -F 120; quit" > bmc3g.log 2>&1
+# ref : MAB-BMC: A Formal Verification Enhancer by Harnessing Multiple BMC Engines Together : https://dl.acm.org/doi/10.1145/3675168
+
+# ========================================= INT =======================================================
+INT : mkdir -p INT && /usr/bin/time -v abc -c "read peg7x7.aig; zero; int -v ; quit" > INT/int.log 2>&1
+
+# ========================================= PDR =======================================================
+pdr : mkdir -p pdr && /usr/bin/time -v abc -c "read peg7x7.aig; zero; pdr -v; quit" > pdr/pdr.log 2>&1
+# https://github.com/berkeley-abc/abc/issues/281
+
+# ========================================= CRS =======================================================
+# ========================================= BMC =======================================================
+BMC : mkdir -p bmc && /usr/bin/time -v abc -c "read pegcross.aig; zero; bmc -v -F 120; quit" > bmc/bmc.log 2>&1
+
+BMC2 : mkdir -p bmc2 && /usr/bin/time -v abc -c "read pegcross.aig; zero; bmc2 -v -F 120; quit" > bmc2/bmc2.log 2>&1
+
+BMC3 : mkdir -p bmc3 && /usr/bin/time -v abc -c "read pegcross.aig; zero; bmc3 -v -F 120; quit" > bmc3/bmc3.log 2>&1
+
+# (Not Found) BMC3s : mkdir -p bmc3s && /usr/bin/time -v abc -c "read pegcross.aig; zero; bmc3s -v -F 120; quit" > bmc3s.log 2>&1
+# (Not Found) BMC3g : mkdir -p bmc3g && /usr/bin/time -v abc -c "read pegcross.aig; zero; bmc -v -F 120; quit" > bmc3g.log 2>&1
+# ref : MAB-BMC: A Formal Verification Enhancer by Harnessing Multiple BMC Engines Together : https://dl.acm.org/doi/10.1145/3675168
+
+# ========================================= INT =======================================================
+INT : mkdir -p INT && /usr/bin/time -v abc -c "read pegcross.aig; zero; int -v ; quit" > INT/int.log 2>&1
+
+# ========================================= PDR =======================================================
+pdr : mkdir -p pdr && /usr/bin/time -v abc -c "read pegcross.aig; zero; pdr -v; quit" > pdr/pdr.log 2>&1
+      mkdir -p pdr && /usr/bin/time -v abc -c "read pegcross.aig ;zero; pdr -v; quit" > pdr/pdr2.log 2>&1
+# https://github.com/berkeley-abc/abc/issues/281
+
+

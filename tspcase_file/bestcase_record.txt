@@ -1,0 +1,11 @@
+Source : http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/STSP.html
+pla33810 : 66048945
+u2319 : 234256
+att48 : 10628
+att532 : 27686
+bays29 : 2020
+ch130 : 6110
+nrw1379 : 56638
+pcb1173 : 56892
+ulysses16 : 6859
+u2152 : 64253

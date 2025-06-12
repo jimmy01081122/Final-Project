@@ -1,0 +1,2710 @@
+2025-06-12 08:13:13,464  INFO  =========================================
+2025-06-12 08:13:13,464  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:13:13,464  INFO  =========================================
+2025-06-12 08:13:39,921  INFO  ============================================================
+2025-06-12 08:13:39,922  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:13:39,922  INFO  ============================================================
+2025-06-12 08:13:39,922  INFO  Instance: ch130.tsp
+2025-06-12 08:13:39,922  INFO  Target cost: 6489.0
+2025-06-12 08:13:39,922  INFO  Max attempts: 20
+2025-06-12 08:13:39,922  INFO  ============================================================
+2025-06-12 08:13:40,012  INFO  Loaded TSP instance with 130 cities
+2025-06-12 08:13:40,012  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 08:13:40,051  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 08:13:40,618  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 08:13:41,191  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 08:13:41,788  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 08:13:42,372  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 08:13:42,977  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 08:13:43,631  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 08:13:44,266  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 08:13:44,874  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 08:13:45,484  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 08:13:46,065  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 08:13:46,065  INFO  Final best cost: 6939
+2025-06-12 08:13:46,065  INFO  Execution time: 6.02s
+2025-06-12 08:13:46,066  INFO  
+Attempt 1: Current cost = 6939, Target = 6489.0
+2025-06-12 08:13:46,066  INFO  New best cost: 6939
+2025-06-12 08:13:46,066  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:13:46,066  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 08:13:46,098  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 08:13:46,674  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 08:13:47,341  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 08:13:47,933  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 08:13:48,528  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 08:13:49,141  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 08:13:49,768  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 08:13:50,402  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 08:13:51,018  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 08:13:51,642  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 08:13:52,241  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 08:13:52,241  INFO  Final best cost: 6626
+2025-06-12 08:13:52,242  INFO  Execution time: 6.15s
+2025-06-12 08:13:52,242  INFO  
+Attempt 2: Current cost = 6626, Target = 6489.0
+2025-06-12 08:13:52,242  INFO  New best cost: 6626
+2025-06-12 08:13:52,242  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:13:52,242  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 08:13:52,270  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 08:13:52,877  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 08:13:53,478  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 08:13:54,079  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 08:13:54,672  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 08:13:55,282  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 08:13:55,888  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 08:13:56,531  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 08:13:57,142  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 08:13:57,742  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 08:13:58,343  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 08:13:58,343  INFO  Final best cost: 6993
+2025-06-12 08:13:58,343  INFO  Execution time: 6.08s
+2025-06-12 08:13:58,344  INFO  
+Attempt 3: Current cost = 6993, Target = 6489.0
+2025-06-12 08:13:58,344  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:13:58,344  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 08:13:58,375  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 08:13:58,980  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 08:13:59,593  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 08:14:00,207  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 08:14:00,819  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 08:14:01,430  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 08:14:02,031  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 08:14:02,664  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 08:14:03,291  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 08:14:03,896  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 08:14:04,493  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 08:14:04,493  INFO  Final best cost: 6647
+2025-06-12 08:14:04,494  INFO  Execution time: 6.12s
+2025-06-12 08:14:04,494  INFO  
+Attempt 4: Current cost = 6647, Target = 6489.0
+2025-06-12 08:14:04,494  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:04,494  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 08:14:04,528  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 08:14:05,119  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 08:14:05,712  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 08:14:06,308  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 08:14:06,893  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 08:14:07,464  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 08:14:08,046  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 08:14:08,637  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 08:14:09,226  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 08:14:09,822  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 08:14:10,420  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 08:14:10,420  INFO  Final best cost: 6745
+2025-06-12 08:14:10,420  INFO  Execution time: 5.89s
+2025-06-12 08:14:10,421  INFO  
+Attempt 5: Current cost = 6745, Target = 6489.0
+2025-06-12 08:14:10,421  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:10,421  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 08:14:16,399  INFO  
+Attempt 6: Current cost = 6956, Target = 6489.0
+2025-06-12 08:14:16,399  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:16,399  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 08:14:22,618  INFO  
+Attempt 7: Current cost = 6786, Target = 6489.0
+2025-06-12 08:14:22,619  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:22,619  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 08:14:28,822  INFO  
+Attempt 8: Current cost = 6647, Target = 6489.0
+2025-06-12 08:14:28,822  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:28,822  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 08:14:34,808  INFO  
+Attempt 9: Current cost = 6637, Target = 6489.0
+2025-06-12 08:14:34,808  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:34,808  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 08:14:34,850  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 08:14:35,454  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 08:14:36,054  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 08:14:36,645  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 08:14:37,244  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 08:14:37,843  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 08:14:38,449  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 08:14:39,049  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 08:14:39,633  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 08:14:40,240  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 08:14:40,828  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 08:14:40,828  INFO  Final best cost: 6738
+2025-06-12 08:14:40,828  INFO  Execution time: 5.98s
+2025-06-12 08:14:40,829  INFO  
+Attempt 10: Current cost = 6738, Target = 6489.0
+2025-06-12 08:14:40,829  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:40,829  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 08:14:46,769  INFO  
+Attempt 11: Current cost = 6609, Target = 6489.0
+2025-06-12 08:14:46,769  INFO  New best cost: 6609
+2025-06-12 08:14:46,769  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:46,769  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 08:14:52,717  INFO  
+Attempt 12: Current cost = 6894, Target = 6489.0
+2025-06-12 08:14:52,717  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:52,717  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 08:14:58,776  INFO  
+Attempt 13: Current cost = 6684, Target = 6489.0
+2025-06-12 08:14:58,776  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:14:58,776  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 08:15:04,670  INFO  
+Attempt 14: Current cost = 7036, Target = 6489.0
+2025-06-12 08:15:04,670  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 08:15:04,670  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:15:04,670  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 08:15:04,744  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 08:15:05,986  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 08:15:07,211  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 08:15:08,489  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 08:15:09,703  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 08:15:10,953  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 08:15:12,102  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 08:15:13,294  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 08:15:14,507  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 08:15:15,698  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 08:15:16,920  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 08:15:18,114  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 08:15:19,337  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 08:15:20,537  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 08:15:21,746  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 08:15:23,012  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 08:15:23,012  INFO  Final best cost: 6616
+2025-06-12 08:15:23,012  INFO  Execution time: 18.27s
+2025-06-12 08:15:23,013  INFO  
+Attempt 15: Current cost = 6616, Target = 6489.0
+2025-06-12 08:15:23,013  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:15:23,013  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 08:15:41,533  INFO  
+Attempt 16: Current cost = 6457, Target = 6489.0
+2025-06-12 08:15:41,533  INFO  New best cost: 6457
+2025-06-12 08:15:41,533  INFO  🎉 Target cost 6489.0 achieved with cost 6457!
+2025-06-12 08:15:41,533  INFO  
+============================================================
+2025-06-12 08:15:41,533  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 08:15:41,533  INFO  ============================================================
+2025-06-12 08:15:41,533  INFO  Best cost achieved: 6457
+2025-06-12 08:15:41,533  INFO  Target cost: 6489.0
+2025-06-12 08:15:41,534  INFO  Target achieved: ✅ YES
+2025-06-12 08:15:41,534  INFO  Total attempts: 16
+2025-06-12 08:15:41,534  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:15:41,534  INFO  Tuning history saved to tuning_history.json
+2025-06-12 08:18:38,756  INFO  
+🏁 Self-tuning completed!
+2025-06-12 08:18:38,756  INFO  Best cost: 6457
+2025-06-12 08:18:38,757  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:29:41,335  INFO  =========================================
+2025-06-12 08:29:41,335  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:29:41,335  INFO  =========================================
+2025-06-12 08:30:05,713  INFO  ============================================================
+2025-06-12 08:30:05,713  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:30:05,713  INFO  ============================================================
+2025-06-12 08:30:05,713  INFO  Instance: ch130.tsp
+2025-06-12 08:30:05,713  INFO  Target cost: 6497.0
+2025-06-12 08:30:05,713  INFO  Max attempts: 30
+2025-06-12 08:30:05,713  INFO  ============================================================
+2025-06-12 08:30:05,808  INFO  Loaded TSP instance with 130 cities
+2025-06-12 08:30:05,808  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 08:30:05,853  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 08:30:06,424  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 08:30:06,993  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 08:30:07,567  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 08:30:08,141  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 08:30:08,711  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 08:30:09,282  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 08:30:09,856  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 08:30:10,430  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 08:30:10,998  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 08:30:11,574  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 08:30:11,574  INFO  Final best cost: 6939
+2025-06-12 08:30:11,574  INFO  Execution time: 5.73s
+2025-06-12 08:30:11,574  INFO  
+Attempt 1: Current cost = 6939, Target = 6497.0
+2025-06-12 08:30:11,575  INFO  New best cost: 6939
+2025-06-12 08:30:11,575  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:11,575  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 08:30:11,606  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 08:30:12,187  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 08:30:12,771  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 08:30:13,350  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 08:30:13,931  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 08:30:14,520  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 08:30:15,103  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 08:30:15,690  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 08:30:16,281  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 08:30:16,859  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 08:30:17,432  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 08:30:17,432  INFO  Final best cost: 6626
+2025-06-12 08:30:17,432  INFO  Execution time: 5.83s
+2025-06-12 08:30:17,433  INFO  
+Attempt 2: Current cost = 6626, Target = 6497.0
+2025-06-12 08:30:17,433  INFO  New best cost: 6626
+2025-06-12 08:30:17,433  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:17,433  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 08:30:17,460  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 08:30:18,046  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 08:30:18,638  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 08:30:19,225  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 08:30:19,817  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 08:30:20,402  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 08:30:20,980  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 08:30:21,568  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 08:30:22,153  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 08:30:22,735  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 08:30:23,315  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 08:30:23,316  INFO  Final best cost: 6993
+2025-06-12 08:30:23,316  INFO  Execution time: 5.86s
+2025-06-12 08:30:23,316  INFO  
+Attempt 3: Current cost = 6993, Target = 6497.0
+2025-06-12 08:30:23,316  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:23,316  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 08:30:23,347  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 08:30:23,926  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 08:30:24,512  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 08:30:25,095  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 08:30:25,675  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 08:30:26,255  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 08:30:26,836  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 08:30:27,442  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 08:30:28,021  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 08:30:28,601  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 08:30:29,182  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 08:30:29,182  INFO  Final best cost: 6647
+2025-06-12 08:30:29,182  INFO  Execution time: 5.84s
+2025-06-12 08:30:29,183  INFO  
+Attempt 4: Current cost = 6647, Target = 6497.0
+2025-06-12 08:30:29,183  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:29,183  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 08:30:29,217  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 08:30:29,798  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 08:30:30,371  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 08:30:30,945  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 08:30:31,519  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 08:30:32,091  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 08:30:32,681  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 08:30:33,267  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 08:30:33,856  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 08:30:34,442  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 08:30:35,026  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 08:30:35,027  INFO  Final best cost: 6745
+2025-06-12 08:30:35,027  INFO  Execution time: 5.81s
+2025-06-12 08:30:35,027  INFO  
+Attempt 5: Current cost = 6745, Target = 6497.0
+2025-06-12 08:30:35,027  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:35,028  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 08:30:41,097  INFO  
+Attempt 6: Current cost = 6956, Target = 6497.0
+2025-06-12 08:30:41,098  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:41,098  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 08:30:47,110  INFO  
+Attempt 7: Current cost = 6786, Target = 6497.0
+2025-06-12 08:30:47,110  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:47,111  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 08:30:53,137  INFO  
+Attempt 8: Current cost = 6647, Target = 6497.0
+2025-06-12 08:30:53,137  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:53,137  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 08:30:59,104  INFO  
+Attempt 9: Current cost = 6637, Target = 6497.0
+2025-06-12 08:30:59,104  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:30:59,104  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 08:30:59,146  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 08:30:59,743  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 08:31:00,344  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 08:31:00,941  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 08:31:01,534  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 08:31:02,130  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 08:31:02,716  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 08:31:03,306  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 08:31:03,895  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 08:31:04,502  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 08:31:05,088  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 08:31:05,088  INFO  Final best cost: 6738
+2025-06-12 08:31:05,088  INFO  Execution time: 5.94s
+2025-06-12 08:31:05,089  INFO  
+Attempt 10: Current cost = 6738, Target = 6497.0
+2025-06-12 08:31:05,089  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:31:05,089  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 08:31:11,145  INFO  
+Attempt 11: Current cost = 6609, Target = 6497.0
+2025-06-12 08:31:11,145  INFO  New best cost: 6609
+2025-06-12 08:31:11,145  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:31:11,145  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 08:31:17,060  INFO  
+Attempt 12: Current cost = 6894, Target = 6497.0
+2025-06-12 08:31:17,060  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:31:17,060  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 08:31:23,054  INFO  
+Attempt 13: Current cost = 6684, Target = 6497.0
+2025-06-12 08:31:23,054  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:31:23,054  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 08:31:29,190  INFO  
+Attempt 14: Current cost = 7036, Target = 6497.0
+2025-06-12 08:31:29,190  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 08:31:29,190  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:31:29,190  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 08:31:29,266  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 08:31:30,536  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 08:31:31,726  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 08:31:32,938  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 08:31:34,143  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 08:31:35,341  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 08:31:36,503  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 08:31:37,678  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 08:31:38,887  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 08:31:40,068  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 08:31:41,285  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 08:31:42,456  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 08:31:43,675  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 08:31:44,866  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 08:31:46,085  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 08:31:47,271  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 08:31:47,272  INFO  Final best cost: 6616
+2025-06-12 08:31:47,272  INFO  Execution time: 18.01s
+2025-06-12 08:31:47,273  INFO  
+Attempt 15: Current cost = 6616, Target = 6497.0
+2025-06-12 08:31:47,273  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:31:47,273  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 08:32:05,414  INFO  
+Attempt 16: Current cost = 6457, Target = 6497.0
+2025-06-12 08:32:05,414  INFO  New best cost: 6457
+2025-06-12 08:32:05,414  INFO  🎉 Target cost 6497.0 achieved with cost 6457!
+2025-06-12 08:32:05,414  INFO  
+============================================================
+2025-06-12 08:32:05,414  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 08:32:05,414  INFO  ============================================================
+2025-06-12 08:32:05,414  INFO  Best cost achieved: 6457
+2025-06-12 08:32:05,414  INFO  Target cost: 6497.0
+2025-06-12 08:32:05,414  INFO  Target achieved: ✅ YES
+2025-06-12 08:32:05,415  INFO  Total attempts: 16
+2025-06-12 08:32:05,415  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:32:05,422  INFO  Tuning history saved to tuning_history.json
+2025-06-12 08:32:19,686  INFO  
+🏁 Self-tuning completed!
+2025-06-12 08:32:19,686  INFO  Best cost: 6457
+2025-06-12 08:32:19,686  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:38:14,501  INFO  =========================================
+2025-06-12 08:38:14,501  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:38:14,501  INFO  =========================================
+2025-06-12 08:38:36,372  INFO  ============================================================
+2025-06-12 08:38:36,372  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:38:36,372  INFO  ============================================================
+2025-06-12 08:38:36,373  INFO  Instance: ch130.tsp
+2025-06-12 08:38:36,373  INFO  Target cost: 6999.0
+2025-06-12 08:38:36,373  INFO  Max attempts: 30
+2025-06-12 08:38:36,373  INFO  ============================================================
+2025-06-12 08:38:36,460  INFO  Loaded TSP instance with 130 cities
+2025-06-12 08:38:36,461  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 08:38:36,500  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 08:38:37,072  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 08:38:37,644  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 08:38:38,222  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 08:38:38,794  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 08:38:39,368  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 08:38:39,944  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 08:38:40,521  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 08:38:41,093  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 08:38:41,669  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 08:38:42,250  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 08:38:42,250  INFO  Final best cost: 6939
+2025-06-12 08:38:42,250  INFO  Execution time: 5.75s
+2025-06-12 08:38:42,251  INFO  
+Attempt 1: Current cost = 6939, Target = 6999.0
+2025-06-12 08:38:42,251  INFO  New best cost: 6939
+2025-06-12 08:38:42,251  INFO  🎉 Target cost 6999.0 achieved with cost 6939!
+2025-06-12 08:38:46,569  INFO  
+============================================================
+2025-06-12 08:38:46,569  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 08:38:46,569  INFO  ============================================================
+2025-06-12 08:38:46,569  INFO  Best cost achieved: 6939
+2025-06-12 08:38:46,569  INFO  Target cost: 6999.0
+2025-06-12 08:38:46,569  INFO  Target achieved: ✅ YES
+2025-06-12 08:38:46,569  INFO  Total attempts: 1
+2025-06-12 08:38:46,569  INFO  Best parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:38:46,576  INFO  Tuning history saved to tuning_history.json
+2025-06-12 08:38:56,657  INFO  
+🏁 Self-tuning completed!
+2025-06-12 08:38:56,657  INFO  Best cost: 6939
+2025-06-12 08:38:56,657  INFO  Best parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:38:59,250  INFO  =========================================
+2025-06-12 08:38:59,250  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:38:59,251  INFO  =========================================
+2025-06-12 08:39:38,094  INFO  ============================================================
+2025-06-12 08:39:38,094  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 08:39:38,094  INFO  ============================================================
+2025-06-12 08:39:38,094  INFO  Instance: ch130.tsp
+2025-06-12 08:39:38,094  INFO  Target cost: 6500.0
+2025-06-12 08:39:38,095  INFO  Max attempts: 30
+2025-06-12 08:39:38,095  INFO  ============================================================
+2025-06-12 08:39:38,182  INFO  Loaded TSP instance with 130 cities
+2025-06-12 08:39:38,182  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 08:39:38,221  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 08:39:38,795  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 08:39:39,376  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 08:39:39,948  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 08:39:40,515  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 08:39:41,067  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 08:39:41,626  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 08:39:42,198  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 08:39:42,768  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 08:39:43,341  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 08:39:43,912  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 08:39:43,913  INFO  Final best cost: 6939
+2025-06-12 08:39:43,913  INFO  Execution time: 5.69s
+2025-06-12 08:39:43,913  INFO  
+Attempt 1: Current cost = 6939, Target = 6500.0
+2025-06-12 08:39:43,913  INFO  New best cost: 6939
+2025-06-12 08:39:43,913  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:39:43,913  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 08:39:43,944  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 08:39:44,522  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 08:39:45,096  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 08:39:45,676  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 08:39:46,251  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 08:39:46,822  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 08:39:47,402  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 08:39:47,989  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 08:39:48,567  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 08:39:49,131  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 08:39:49,721  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 08:39:49,721  INFO  Final best cost: 6626
+2025-06-12 08:39:49,721  INFO  Execution time: 5.78s
+2025-06-12 08:39:49,722  INFO  
+Attempt 2: Current cost = 6626, Target = 6500.0
+2025-06-12 08:39:49,722  INFO  New best cost: 6626
+2025-06-12 08:39:49,722  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:39:49,722  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 08:39:49,749  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 08:39:50,351  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 08:39:50,952  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 08:39:51,556  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 08:39:52,166  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 08:39:52,773  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 08:39:53,380  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 08:39:53,989  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 08:39:54,597  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 08:39:55,203  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 08:39:55,809  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 08:39:55,809  INFO  Final best cost: 6993
+2025-06-12 08:39:55,809  INFO  Execution time: 6.06s
+2025-06-12 08:39:55,809  INFO  
+Attempt 3: Current cost = 6993, Target = 6500.0
+2025-06-12 08:39:55,809  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:39:55,809  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 08:39:55,840  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 08:39:56,454  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 08:39:57,064  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 08:39:57,673  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 08:39:58,260  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 08:39:58,846  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 08:39:59,431  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 08:40:00,044  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 08:40:00,647  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 08:40:01,247  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 08:40:01,858  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 08:40:01,858  INFO  Final best cost: 6647
+2025-06-12 08:40:01,858  INFO  Execution time: 6.02s
+2025-06-12 08:40:01,859  INFO  
+Attempt 4: Current cost = 6647, Target = 6500.0
+2025-06-12 08:40:01,859  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:01,859  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 08:40:01,893  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 08:40:02,514  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 08:40:03,132  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 08:40:03,747  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 08:40:04,361  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 08:40:04,978  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 08:40:05,575  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 08:40:06,169  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 08:40:06,761  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 08:40:07,355  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 08:40:07,946  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 08:40:07,947  INFO  Final best cost: 6745
+2025-06-12 08:40:07,947  INFO  Execution time: 6.06s
+2025-06-12 08:40:07,947  INFO  
+Attempt 5: Current cost = 6745, Target = 6500.0
+2025-06-12 08:40:07,947  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:07,947  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 08:40:13,984  INFO  
+Attempt 6: Current cost = 6956, Target = 6500.0
+2025-06-12 08:40:13,985  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:13,985  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 08:40:19,933  INFO  
+Attempt 7: Current cost = 6786, Target = 6500.0
+2025-06-12 08:40:19,934  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:19,934  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 08:40:25,898  INFO  
+Attempt 8: Current cost = 6647, Target = 6500.0
+2025-06-12 08:40:25,898  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:25,898  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 08:40:31,849  INFO  
+Attempt 9: Current cost = 6637, Target = 6500.0
+2025-06-12 08:40:31,850  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:31,850  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 08:40:31,891  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 08:40:32,487  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 08:40:33,096  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 08:40:33,691  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 08:40:34,283  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 08:40:34,878  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 08:40:35,475  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 08:40:36,074  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 08:40:36,693  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 08:40:37,336  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 08:40:37,952  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 08:40:37,952  INFO  Final best cost: 6738
+2025-06-12 08:40:37,952  INFO  Execution time: 6.06s
+2025-06-12 08:40:37,953  INFO  
+Attempt 10: Current cost = 6738, Target = 6500.0
+2025-06-12 08:40:37,953  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:37,953  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 08:40:44,012  INFO  
+Attempt 11: Current cost = 6609, Target = 6500.0
+2025-06-12 08:40:44,012  INFO  New best cost: 6609
+2025-06-12 08:40:44,012  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:44,012  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 08:40:50,088  INFO  
+Attempt 12: Current cost = 6894, Target = 6500.0
+2025-06-12 08:40:50,088  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:50,088  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 08:40:56,214  INFO  
+Attempt 13: Current cost = 6684, Target = 6500.0
+2025-06-12 08:40:56,215  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 08:40:56,215  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 08:41:02,227  INFO  
+Attempt 14: Current cost = 7036, Target = 6500.0
+2025-06-12 08:41:02,227  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 08:41:02,227  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:41:02,227  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 08:41:02,300  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 08:41:03,529  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 08:41:04,776  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 08:41:05,992  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 08:41:07,181  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 08:41:08,396  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 08:41:09,592  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 08:41:10,834  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 08:41:12,112  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 08:41:13,352  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 08:41:14,618  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 08:41:15,848  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 08:41:17,103  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 08:41:18,310  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 08:41:19,504  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 08:41:20,710  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 08:41:20,711  INFO  Final best cost: 6616
+2025-06-12 08:41:20,711  INFO  Execution time: 18.41s
+2025-06-12 08:41:20,712  INFO  
+Attempt 15: Current cost = 6616, Target = 6500.0
+2025-06-12 08:41:20,712  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:41:20,712  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 08:41:38,791  INFO  
+Attempt 16: Current cost = 6457, Target = 6500.0
+2025-06-12 08:41:38,791  INFO  New best cost: 6457
+2025-06-12 08:41:38,791  INFO  🎉 Target cost 6500.0 achieved with cost 6457!
+2025-06-12 08:42:51,019  INFO  
+============================================================
+2025-06-12 08:42:51,020  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 08:42:51,020  INFO  ============================================================
+2025-06-12 08:42:51,020  INFO  Best cost achieved: 6457
+2025-06-12 08:42:51,020  INFO  Target cost: 6500.0
+2025-06-12 08:42:51,020  INFO  Target achieved: ✅ YES
+2025-06-12 08:42:51,020  INFO  Total attempts: 16
+2025-06-12 08:42:51,020  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 08:42:51,021  INFO  Tuning history saved to tuning_history.json
+2025-06-12 08:42:58,384  INFO  
+🏁 Self-tuning completed!
+2025-06-12 08:42:58,384  INFO  Best cost: 6457
+2025-06-12 08:42:58,384  INFO  Best parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:05:44,234  INFO  =========================================
+2025-06-12 09:05:44,235  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:05:44,235  INFO  =========================================
+2025-06-12 09:05:59,914  INFO  ============================================================
+2025-06-12 09:05:59,915  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:05:59,915  INFO  ============================================================
+2025-06-12 09:05:59,915  INFO  Instance: ch130.tsp
+2025-06-12 09:05:59,915  INFO  Target cost: 6626.0
+2025-06-12 09:05:59,915  INFO  Max attempts: 30
+2025-06-12 09:05:59,915  INFO  ============================================================
+2025-06-12 09:06:00,008  INFO  Loaded TSP instance with 130 cities
+2025-06-12 09:06:00,008  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 09:06:00,053  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 09:06:00,620  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 09:06:01,190  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 09:06:01,777  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 09:06:02,369  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 09:06:02,948  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 09:06:03,522  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 09:06:04,098  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 09:06:04,680  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 09:06:05,268  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 09:06:05,866  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 09:06:05,866  INFO  Final best cost: 6939
+2025-06-12 09:06:05,866  INFO  Execution time: 5.82s
+2025-06-12 09:06:05,866  INFO  
+Attempt 1: Current cost = 6939, Target = 6626.0
+2025-06-12 09:06:05,866  INFO  New best cost: 6939
+2025-06-12 09:06:05,866  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:06:05,866  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 09:06:05,899  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 09:06:06,505  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 09:06:07,086  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 09:06:07,664  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 09:06:08,243  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 09:06:08,839  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 09:06:09,432  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 09:06:10,016  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 09:06:10,596  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 09:06:11,175  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 09:06:11,784  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 09:06:11,784  INFO  Final best cost: 6626
+2025-06-12 09:06:11,784  INFO  Execution time: 5.89s
+2025-06-12 09:06:11,785  INFO  
+Attempt 2: Current cost = 6626, Target = 6626.0
+2025-06-12 09:06:11,785  INFO  New best cost: 6626
+2025-06-12 09:06:11,785  INFO  🎉 Target cost 6626.0 achieved with cost 6626!
+2025-06-12 09:06:23,717  INFO  
+============================================================
+2025-06-12 09:06:23,718  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 09:06:23,718  INFO  ============================================================
+2025-06-12 09:06:23,718  INFO  Best cost achieved: 6626
+2025-06-12 09:06:23,718  INFO  Target cost: 6626.0
+2025-06-12 09:06:23,718  INFO  Target achieved: ✅ YES
+2025-06-12 09:06:23,718  INFO  Total attempts: 2
+2025-06-12 09:06:23,718  INFO  Best parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:06:23,726  INFO  Tuning history saved to tuning_history.json
+2025-06-12 09:06:31,116  INFO  
+🏁 Self-tuning completed!
+2025-06-12 09:06:31,116  INFO  Best cost: 6626
+2025-06-12 09:06:31,116  INFO  Best parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:06:34,831  INFO  =========================================
+2025-06-12 09:06:34,832  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:06:34,832  INFO  =========================================
+2025-06-12 09:06:46,236  INFO  ============================================================
+2025-06-12 09:06:46,237  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:06:46,237  INFO  ============================================================
+2025-06-12 09:06:46,237  INFO  Instance: ch130.tsp
+2025-06-12 09:06:46,237  INFO  Target cost: 6783.0
+2025-06-12 09:06:46,237  INFO  Max attempts: 30
+2025-06-12 09:06:46,237  INFO  ============================================================
+2025-06-12 09:06:46,324  INFO  Loaded TSP instance with 130 cities
+2025-06-12 09:06:46,324  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 09:06:46,364  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 09:06:46,925  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 09:06:47,500  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 09:06:48,076  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 09:06:48,657  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 09:06:49,232  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 09:06:49,813  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 09:06:50,399  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 09:06:50,982  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 09:06:51,562  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 09:06:52,146  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 09:06:52,146  INFO  Final best cost: 6939
+2025-06-12 09:06:52,146  INFO  Execution time: 5.78s
+2025-06-12 09:06:52,146  INFO  
+Attempt 1: Current cost = 6939, Target = 6783.0
+2025-06-12 09:06:52,146  INFO  New best cost: 6939
+2025-06-12 09:06:52,146  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:06:52,146  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 09:06:52,179  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 09:06:52,788  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 09:06:53,391  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 09:06:53,960  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 09:06:54,566  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 09:06:55,175  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 09:06:55,783  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 09:06:56,390  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 09:06:56,996  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 09:06:57,610  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 09:06:58,217  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 09:06:58,217  INFO  Final best cost: 6626
+2025-06-12 09:06:58,217  INFO  Execution time: 6.04s
+2025-06-12 09:06:58,218  INFO  
+Attempt 2: Current cost = 6626, Target = 6783.0
+2025-06-12 09:06:58,218  INFO  New best cost: 6626
+2025-06-12 09:06:58,218  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:06:58,218  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 09:06:58,247  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 09:06:58,855  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 09:06:59,460  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 09:07:00,040  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 09:07:00,628  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 09:07:01,213  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 09:07:01,804  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 09:07:02,391  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 09:07:02,994  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 09:07:03,579  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 09:07:04,161  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 09:07:04,161  INFO  Final best cost: 6993
+2025-06-12 09:07:04,162  INFO  Execution time: 5.92s
+2025-06-12 09:07:04,162  INFO  
+Attempt 3: Current cost = 6993, Target = 6783.0
+2025-06-12 09:07:04,162  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:04,162  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 09:07:04,192  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 09:07:04,776  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 09:07:05,360  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 09:07:05,947  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 09:07:06,528  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 09:07:07,111  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 09:07:07,696  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 09:07:08,299  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 09:07:08,874  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 09:07:09,448  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 09:07:10,031  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 09:07:10,032  INFO  Final best cost: 6647
+2025-06-12 09:07:10,032  INFO  Execution time: 5.84s
+2025-06-12 09:07:10,032  INFO  
+Attempt 4: Current cost = 6647, Target = 6783.0
+2025-06-12 09:07:10,032  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:10,032  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 09:07:10,067  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 09:07:10,676  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 09:07:11,287  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 09:07:11,901  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 09:07:12,502  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 09:07:13,089  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 09:07:13,680  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 09:07:14,266  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 09:07:14,855  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 09:07:15,443  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 09:07:16,032  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 09:07:16,032  INFO  Final best cost: 6745
+2025-06-12 09:07:16,032  INFO  Execution time: 5.97s
+2025-06-12 09:07:16,033  INFO  
+Attempt 5: Current cost = 6745, Target = 6783.0
+2025-06-12 09:07:16,033  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:16,033  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 09:07:21,959  INFO  
+Attempt 6: Current cost = 6956, Target = 6783.0
+2025-06-12 09:07:21,959  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:21,959  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 09:07:27,871  INFO  
+Attempt 7: Current cost = 6786, Target = 6783.0
+2025-06-12 09:07:27,871  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:27,871  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 09:07:33,816  INFO  
+Attempt 8: Current cost = 6647, Target = 6783.0
+2025-06-12 09:07:33,816  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:33,816  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 09:07:39,904  INFO  
+Attempt 9: Current cost = 6637, Target = 6783.0
+2025-06-12 09:07:39,904  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:39,904  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 09:07:39,943  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 09:07:40,539  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 09:07:41,129  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 09:07:41,716  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 09:07:42,311  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 09:07:42,906  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 09:07:43,498  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 09:07:44,090  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 09:07:44,686  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 09:07:45,302  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 09:07:45,898  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 09:07:45,898  INFO  Final best cost: 6738
+2025-06-12 09:07:45,898  INFO  Execution time: 5.96s
+2025-06-12 09:07:45,899  INFO  
+Attempt 10: Current cost = 6738, Target = 6783.0
+2025-06-12 09:07:45,899  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:45,899  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 09:07:51,832  INFO  
+Attempt 11: Current cost = 6609, Target = 6783.0
+2025-06-12 09:07:51,832  INFO  New best cost: 6609
+2025-06-12 09:07:51,832  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:51,832  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 09:07:57,971  INFO  
+Attempt 12: Current cost = 6894, Target = 6783.0
+2025-06-12 09:07:57,971  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:07:57,971  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 09:08:03,817  INFO  
+Attempt 13: Current cost = 6684, Target = 6783.0
+2025-06-12 09:08:03,817  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:08:03,817  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 09:08:09,719  INFO  
+Attempt 14: Current cost = 7036, Target = 6783.0
+2025-06-12 09:08:09,720  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 09:08:09,720  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:08:09,720  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 09:08:09,793  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 09:08:11,012  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 09:08:12,195  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 09:08:13,406  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 09:08:14,622  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 09:08:15,832  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 09:08:17,033  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 09:08:18,225  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 09:08:19,447  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 09:08:20,650  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 09:08:21,864  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 09:08:23,058  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 09:08:24,265  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 09:08:25,437  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 09:08:26,634  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 09:08:27,896  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 09:08:27,896  INFO  Final best cost: 6616
+2025-06-12 09:08:27,896  INFO  Execution time: 18.11s
+2025-06-12 09:08:27,897  INFO  
+Attempt 15: Current cost = 6616, Target = 6783.0
+2025-06-12 09:08:27,898  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:08:27,898  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 09:08:46,204  INFO  
+Attempt 16: Current cost = 6457, Target = 6783.0
+2025-06-12 09:08:46,204  INFO  New best cost: 6457
+2025-06-12 09:08:46,204  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:08:46,204  INFO  
+==================== ATTEMPT 17 ====================
+2025-06-12 09:09:04,500  INFO  
+Attempt 17: Current cost = 6342, Target = 6783.0
+2025-06-12 09:09:04,501  INFO  New best cost: 6342
+2025-06-12 09:09:04,501  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:09:04,501  INFO  
+==================== ATTEMPT 18 ====================
+2025-06-12 09:09:22,840  INFO  
+Attempt 18: Current cost = 6550, Target = 6783.0
+2025-06-12 09:09:22,840  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:09:22,840  INFO  
+==================== ATTEMPT 19 ====================
+2025-06-12 09:09:41,532  INFO  
+Attempt 19: Current cost = 6422, Target = 6783.0
+2025-06-12 09:09:41,532  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:09:41,532  INFO  
+==================== ATTEMPT 20 ====================
+2025-06-12 09:09:41,595  INFO  Gen 0: Avg=32542.9, Min=7196.0
+2025-06-12 09:09:42,810  INFO  Gen 100: Avg=7195.0, Min=7115.0
+2025-06-12 09:09:44,013  INFO  Gen 200: Avg=7126.9, Min=7034.0
+2025-06-12 09:09:45,248  INFO  Gen 300: Avg=7111.5, Min=7010.0
+2025-06-12 09:09:46,490  INFO  Gen 400: Avg=7035.9, Min=6922.0
+2025-06-12 09:09:47,742  INFO  Gen 500: Avg=6946.4, Min=6826.0
+2025-06-12 09:09:48,971  INFO  Gen 600: Avg=6896.1, Min=6806.0
+2025-06-12 09:09:50,198  INFO  Gen 700: Avg=6796.8, Min=6635.0
+2025-06-12 09:09:51,393  INFO  Gen 800: Avg=6703.5, Min=6619.0
+2025-06-12 09:09:52,599  INFO  Gen 900: Avg=6690.0, Min=6619.0
+2025-06-12 09:09:53,815  INFO  Gen 1000: Avg=6705.8, Min=6619.0
+2025-06-12 09:09:55,030  INFO  Gen 1100: Avg=6705.5, Min=6619.0
+2025-06-12 09:09:56,266  INFO  Gen 1200: Avg=6696.3, Min=6619.0
+2025-06-12 09:09:57,470  INFO  Gen 1300: Avg=6703.1, Min=6619.0
+2025-06-12 09:09:58,745  INFO  Gen 1400: Avg=6710.3, Min=6619.0
+2025-06-12 09:09:59,975  INFO  Gen 1500: Avg=6679.3, Min=6526.0
+2025-06-12 09:09:59,975  INFO  Final best cost: 6526
+2025-06-12 09:09:59,975  INFO  Execution time: 18.38s
+2025-06-12 09:09:59,977  INFO  
+Attempt 20: Current cost = 6526, Target = 6783.0
+2025-06-12 09:09:59,977  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:09:59,977  INFO  
+==================== ATTEMPT 21 ====================
+2025-06-12 09:10:18,388  INFO  
+Attempt 21: Current cost = 6745, Target = 6783.0
+2025-06-12 09:10:18,388  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 09:10:18,388  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:10:18,388  INFO  
+==================== ATTEMPT 22 ====================
+2025-06-12 09:11:03,327  INFO  
+Attempt 22: Current cost = 6496, Target = 6783.0
+2025-06-12 09:11:03,327  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:11:03,327  INFO  
+==================== ATTEMPT 23 ====================
+2025-06-12 09:11:47,980  INFO  
+Attempt 23: Current cost = 6347, Target = 6783.0
+2025-06-12 09:11:47,980  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:11:47,980  INFO  
+==================== ATTEMPT 24 ====================
+2025-06-12 09:12:32,044  INFO  
+Attempt 24: Current cost = 6347, Target = 6783.0
+2025-06-12 09:12:32,045  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:12:32,045  INFO  
+==================== ATTEMPT 25 ====================
+2025-06-12 09:12:32,209  INFO  Gen 0: Avg=31332.1, Min=7129.0
+2025-06-12 09:12:35,116  INFO  Gen 100: Avg=6874.1, Min=6706.0
+2025-06-12 09:12:38,034  INFO  Gen 200: Avg=6490.6, Min=6388.0
+2025-06-12 09:12:40,999  INFO  Gen 300: Avg=6483.4, Min=6388.0
+2025-06-12 09:12:44,040  INFO  Gen 400: Avg=6484.6, Min=6388.0
+2025-06-12 09:12:47,095  INFO  Gen 500: Avg=6458.8, Min=6368.0
+2025-06-12 09:12:50,100  INFO  Gen 600: Avg=6450.8, Min=6367.0
+2025-06-12 09:12:53,084  INFO  Gen 700: Avg=6480.4, Min=6366.0
+2025-06-12 09:12:56,041  INFO  Gen 800: Avg=6481.0, Min=6366.0
+2025-06-12 09:12:58,983  INFO  Gen 900: Avg=6467.0, Min=6366.0
+2025-06-12 09:13:01,894  INFO  Gen 1000: Avg=6459.5, Min=6366.0
+2025-06-12 09:13:04,793  INFO  Gen 1100: Avg=6455.8, Min=6366.0
+2025-06-12 09:13:07,700  INFO  Gen 1200: Avg=6465.5, Min=6366.0
+2025-06-12 09:13:10,652  INFO  Gen 1300: Avg=6473.8, Min=6366.0
+2025-06-12 09:13:13,642  INFO  Gen 1400: Avg=6469.1, Min=6366.0
+2025-06-12 09:13:16,575  INFO  Gen 1500: Avg=6475.7, Min=6366.0
+2025-06-12 09:13:16,575  INFO  Final best cost: 6366
+2025-06-12 09:13:16,575  INFO  Execution time: 44.37s
+2025-06-12 09:13:16,577  INFO  
+Attempt 25: Current cost = 6366, Target = 6783.0
+2025-06-12 09:13:16,577  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:13:16,577  INFO  
+==================== ATTEMPT 26 ====================
+2025-06-12 09:14:00,727  INFO  
+Attempt 26: Current cost = 6272, Target = 6783.0
+2025-06-12 09:14:00,727  INFO  New best cost: 6272
+2025-06-12 09:14:00,727  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:14:00,727  INFO  
+==================== ATTEMPT 27 ====================
+2025-06-12 09:14:44,682  INFO  
+Attempt 27: Current cost = 6506, Target = 6783.0
+2025-06-12 09:14:44,682  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:14:44,682  INFO  
+==================== ATTEMPT 28 ====================
+2025-06-12 09:15:28,738  INFO  
+Attempt 28: Current cost = 6548, Target = 6783.0
+2025-06-12 09:15:28,738  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:15:28,738  INFO  
+==================== ATTEMPT 29 ====================
+2025-06-12 09:16:13,523  INFO  
+Attempt 29: Current cost = 6490, Target = 6783.0
+2025-06-12 09:16:13,523  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:16:13,523  INFO  
+==================== ATTEMPT 30 ====================
+2025-06-12 09:16:13,703  INFO  Gen 0: Avg=30621.3, Min=7129.0
+2025-06-12 09:16:16,689  INFO  Gen 100: Avg=7121.6, Min=6903.0
+2025-06-12 09:16:19,747  INFO  Gen 200: Avg=6921.8, Min=6644.0
+2025-06-12 09:16:22,783  INFO  Gen 300: Avg=6611.2, Min=6506.0
+2025-06-12 09:16:25,734  INFO  Gen 400: Avg=6600.6, Min=6506.0
+2025-06-12 09:16:28,761  INFO  Gen 500: Avg=6528.7, Min=6460.0
+2025-06-12 09:16:31,686  INFO  Gen 600: Avg=6545.3, Min=6460.0
+2025-06-12 09:16:34,612  INFO  Gen 700: Avg=6553.4, Min=6460.0
+2025-06-12 09:16:37,588  INFO  Gen 800: Avg=6569.6, Min=6460.0
+2025-06-12 09:16:40,636  INFO  Gen 900: Avg=6554.0, Min=6460.0
+2025-06-12 09:16:43,684  INFO  Gen 1000: Avg=6553.1, Min=6460.0
+2025-06-12 09:16:46,676  INFO  Gen 1100: Avg=6557.3, Min=6460.0
+2025-06-12 09:16:49,649  INFO  Gen 1200: Avg=6575.4, Min=6460.0
+2025-06-12 09:16:52,723  INFO  Gen 1300: Avg=6545.2, Min=6460.0
+2025-06-12 09:16:55,702  INFO  Gen 1400: Avg=6550.9, Min=6460.0
+2025-06-12 09:16:58,641  INFO  Gen 1500: Avg=6549.1, Min=6460.0
+2025-06-12 09:16:58,642  INFO  Final best cost: 6460
+2025-06-12 09:16:58,642  INFO  Execution time: 44.95s
+2025-06-12 09:16:58,643  INFO  
+Attempt 30: Current cost = 6460, Target = 6783.0
+2025-06-12 09:16:58,643  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:16:58,643  INFO  
+============================================================
+2025-06-12 09:16:58,643  INFO    🎯 SELF-TUNING RESULTS
+2025-06-12 09:16:58,643  INFO  ============================================================
+2025-06-12 09:16:58,643  INFO  Best cost achieved: 6272
+2025-06-12 09:16:58,643  INFO  Target cost: 6783.0
+2025-06-12 09:16:58,643  INFO  Target achieved: ❌ NO
+2025-06-12 09:16:58,643  INFO  Total attempts: 30
+2025-06-12 09:16:58,643  INFO  Best parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:16:58,650  INFO  Tuning history saved to tuning_history.json
+2025-06-12 09:20:05,516  INFO  
+🏁 Self-tuning completed!
+2025-06-12 09:20:05,517  INFO  Best cost: 6272
+2025-06-12 09:20:05,517  INFO  Best parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:27:28,316  INFO  =========================================
+2025-06-12 09:27:28,316  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:27:28,316  INFO  =========================================
+2025-06-12 09:27:44,964  INFO  =========================================
+2025-06-12 09:27:44,964  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:27:44,964  INFO  =========================================
+2025-06-12 09:27:56,021  INFO  ============================================================
+2025-06-12 09:27:56,021  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:27:56,021  INFO  ============================================================
+2025-06-12 09:27:56,021  INFO  Instance: ch130.tsp
+2025-06-12 09:27:56,021  INFO  Target cost: 6667.0
+2025-06-12 09:27:56,021  INFO  Max attempts: 20
+2025-06-12 09:27:56,021  INFO  ============================================================
+2025-06-12 09:27:56,113  INFO  Loaded TSP instance with 130 cities
+2025-06-12 09:27:56,113  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 09:27:56,159  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 09:27:56,724  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 09:27:57,288  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 09:27:57,866  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 09:27:58,435  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 09:27:59,004  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 09:27:59,570  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 09:28:00,140  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 09:28:00,702  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 09:28:01,272  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 09:28:01,835  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 09:28:01,835  INFO  Final best cost: 6939
+2025-06-12 09:28:01,835  INFO  Execution time: 5.68s
+2025-06-12 09:28:01,835  INFO  
+Attempt 1: Current cost = 6939, Target = 6667.0
+2025-06-12 09:28:01,835  INFO  New best cost: 6939
+2025-06-12 09:28:01,835  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:01,835  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 09:28:01,866  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 09:28:02,441  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 09:28:03,018  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 09:28:03,585  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 09:28:04,156  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 09:28:04,724  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 09:28:05,295  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 09:28:05,866  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 09:28:06,438  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 09:28:07,009  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 09:28:07,586  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 09:28:07,586  INFO  Final best cost: 6626
+2025-06-12 09:28:07,586  INFO  Execution time: 5.72s
+2025-06-12 09:28:07,587  INFO  
+Attempt 2: Current cost = 6626, Target = 6667.0
+2025-06-12 09:28:07,587  INFO  New best cost: 6626
+2025-06-12 09:28:07,587  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:07,587  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 09:28:07,614  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 09:28:08,196  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 09:28:08,773  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 09:28:09,352  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 09:28:09,935  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 09:28:10,518  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 09:28:11,096  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 09:28:11,685  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 09:28:12,273  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 09:28:12,860  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 09:28:13,449  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 09:28:13,449  INFO  Final best cost: 6993
+2025-06-12 09:28:13,450  INFO  Execution time: 5.84s
+2025-06-12 09:28:13,450  INFO  
+Attempt 3: Current cost = 6993, Target = 6667.0
+2025-06-12 09:28:13,450  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:13,450  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 09:28:13,479  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 09:28:14,070  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 09:28:14,662  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 09:28:15,249  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 09:28:15,850  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 09:28:16,446  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 09:28:17,038  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 09:28:17,675  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 09:28:18,262  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 09:28:18,851  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 09:28:19,442  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 09:28:19,443  INFO  Final best cost: 6647
+2025-06-12 09:28:19,443  INFO  Execution time: 5.97s
+2025-06-12 09:28:19,443  INFO  
+Attempt 4: Current cost = 6647, Target = 6667.0
+2025-06-12 09:28:19,443  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:19,443  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 09:28:19,477  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 09:28:20,070  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 09:28:20,659  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 09:28:21,244  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 09:28:21,823  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 09:28:22,409  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 09:28:22,996  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 09:28:23,583  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 09:28:24,166  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 09:28:24,756  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 09:28:25,341  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 09:28:25,341  INFO  Final best cost: 6745
+2025-06-12 09:28:25,342  INFO  Execution time: 5.87s
+2025-06-12 09:28:25,342  INFO  
+Attempt 5: Current cost = 6745, Target = 6667.0
+2025-06-12 09:28:25,342  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:25,342  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 09:28:31,211  INFO  
+Attempt 6: Current cost = 6956, Target = 6667.0
+2025-06-12 09:28:31,212  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:31,212  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 09:28:37,047  INFO  
+Attempt 7: Current cost = 6786, Target = 6667.0
+2025-06-12 09:28:37,048  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:37,048  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 09:28:43,003  INFO  
+Attempt 8: Current cost = 6647, Target = 6667.0
+2025-06-12 09:28:43,003  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:43,003  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 09:28:49,060  INFO  
+Attempt 9: Current cost = 6637, Target = 6667.0
+2025-06-12 09:28:49,060  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:49,060  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 09:28:49,104  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 09:28:49,725  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 09:28:50,332  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 09:28:50,937  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 09:28:51,540  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 09:28:52,165  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 09:28:52,798  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 09:28:53,400  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 09:28:53,995  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 09:28:54,611  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 09:28:55,206  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 09:28:55,206  INFO  Final best cost: 6738
+2025-06-12 09:28:55,206  INFO  Execution time: 6.10s
+2025-06-12 09:28:55,207  INFO  
+Attempt 10: Current cost = 6738, Target = 6667.0
+2025-06-12 09:28:55,207  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:28:55,207  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 09:29:01,119  INFO  
+Attempt 11: Current cost = 6609, Target = 6667.0
+2025-06-12 09:29:01,119  INFO  New best cost: 6609
+2025-06-12 09:29:01,119  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:29:01,119  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 09:29:06,967  INFO  
+Attempt 12: Current cost = 6894, Target = 6667.0
+2025-06-12 09:29:06,967  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:29:06,967  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 09:29:12,849  INFO  
+Attempt 13: Current cost = 6684, Target = 6667.0
+2025-06-12 09:29:12,850  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:29:12,850  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 09:29:18,851  INFO  
+Attempt 14: Current cost = 7036, Target = 6667.0
+2025-06-12 09:29:18,851  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 09:29:18,851  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:29:18,851  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 09:29:18,926  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 09:29:20,151  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 09:29:21,357  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 09:29:22,557  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 09:29:23,746  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 09:29:24,945  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 09:29:26,156  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 09:29:27,339  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 09:29:28,566  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 09:29:29,777  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 09:29:31,003  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 09:29:32,206  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 09:29:33,421  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 09:29:34,618  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 09:29:35,812  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 09:29:37,040  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 09:29:37,040  INFO  Final best cost: 6616
+2025-06-12 09:29:37,041  INFO  Execution time: 18.12s
+2025-06-12 09:29:37,041  INFO  
+Attempt 15: Current cost = 6616, Target = 6667.0
+2025-06-12 09:29:37,042  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:29:37,042  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 09:29:55,524  INFO  
+Attempt 16: Current cost = 6457, Target = 6667.0
+2025-06-12 09:29:55,525  INFO  New best cost: 6457
+2025-06-12 09:29:55,525  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:29:55,525  INFO  
+==================== ATTEMPT 17 ====================
+2025-06-12 09:30:13,881  INFO  
+Attempt 17: Current cost = 6342, Target = 6667.0
+2025-06-12 09:30:13,881  INFO  New best cost: 6342
+2025-06-12 09:30:13,881  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:30:13,881  INFO  
+==================== ATTEMPT 18 ====================
+2025-06-12 09:30:32,294  INFO  
+Attempt 18: Current cost = 6550, Target = 6667.0
+2025-06-12 09:30:32,294  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:30:32,294  INFO  
+==================== ATTEMPT 19 ====================
+2025-06-12 09:30:50,455  INFO  
+Attempt 19: Current cost = 6422, Target = 6667.0
+2025-06-12 09:30:50,455  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:30:50,455  INFO  
+==================== ATTEMPT 20 ====================
+2025-06-12 09:30:50,516  INFO  Gen 0: Avg=32542.9, Min=7196.0
+2025-06-12 09:30:51,709  INFO  Gen 100: Avg=7195.0, Min=7115.0
+2025-06-12 09:30:52,930  INFO  Gen 200: Avg=7126.9, Min=7034.0
+2025-06-12 09:30:54,128  INFO  Gen 300: Avg=7111.5, Min=7010.0
+2025-06-12 09:30:55,326  INFO  Gen 400: Avg=7035.9, Min=6922.0
+2025-06-12 09:30:56,558  INFO  Gen 500: Avg=6946.4, Min=6826.0
+2025-06-12 09:30:57,807  INFO  Gen 600: Avg=6896.1, Min=6806.0
+2025-06-12 09:30:59,083  INFO  Gen 700: Avg=6796.8, Min=6635.0
+2025-06-12 09:31:00,340  INFO  Gen 800: Avg=6703.5, Min=6619.0
+2025-06-12 09:31:01,588  INFO  Gen 900: Avg=6690.0, Min=6619.0
+2025-06-12 09:31:02,794  INFO  Gen 1000: Avg=6705.8, Min=6619.0
+2025-06-12 09:31:04,006  INFO  Gen 1100: Avg=6705.5, Min=6619.0
+2025-06-12 09:31:05,243  INFO  Gen 1200: Avg=6696.3, Min=6619.0
+2025-06-12 09:31:06,444  INFO  Gen 1300: Avg=6703.1, Min=6619.0
+2025-06-12 09:31:07,689  INFO  Gen 1400: Avg=6710.3, Min=6619.0
+2025-06-12 09:31:08,877  INFO  Gen 1500: Avg=6679.3, Min=6526.0
+2025-06-12 09:31:08,877  INFO  Final best cost: 6526
+2025-06-12 09:31:08,877  INFO  Execution time: 18.36s
+2025-06-12 09:31:08,878  INFO  
+Attempt 20: Current cost = 6526, Target = 6667.0
+2025-06-12 09:31:08,878  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:31:08,878  INFO  
+⚠️ 未找到 cost = 6667.0 的路徑。  改輸出目前最接近的 cost = 6342
+2025-06-12 09:33:55,590  INFO  Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+2025-06-12 09:52:06,676  INFO  =========================================
+2025-06-12 09:52:06,676  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:52:06,676  INFO  =========================================
+2025-06-12 09:52:19,429  INFO  ============================================================
+2025-06-12 09:52:19,429  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:52:19,429  INFO  ============================================================
+2025-06-12 09:52:19,429  INFO  Instance: ch130.tsp
+2025-06-12 09:52:19,429  INFO  Target cost: 6666.0
+2025-06-12 09:52:19,429  INFO  Max attempts: 2
+2025-06-12 09:52:19,429  INFO  ============================================================
+2025-06-12 09:52:19,526  INFO  Loaded TSP instance with 130 cities
+2025-06-12 09:52:19,526  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 09:52:19,570  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 09:52:20,144  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 09:52:20,715  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 09:52:21,292  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 09:52:21,867  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 09:52:22,465  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 09:52:23,062  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 09:52:23,659  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 09:52:24,259  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 09:52:24,838  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 09:52:25,414  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 09:52:25,414  INFO  Final best cost: 6939
+2025-06-12 09:52:25,414  INFO  Execution time: 5.85s
+2025-06-12 09:52:25,414  INFO  
+Attempt 1: Current cost = 6939, Target = 6666.0
+2025-06-12 09:52:25,414  INFO  New best cost: 6939
+2025-06-12 09:52:25,414  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:52:25,415  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 09:52:25,447  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 09:52:26,029  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 09:52:26,611  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 09:52:27,184  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 09:52:27,767  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 09:52:28,354  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 09:52:28,941  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 09:52:29,526  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 09:52:30,114  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 09:52:30,708  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 09:52:31,296  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 09:52:31,296  INFO  Final best cost: 6626
+2025-06-12 09:52:31,296  INFO  Execution time: 5.85s
+2025-06-12 09:52:31,297  INFO  
+Attempt 2: Current cost = 6626, Target = 6666.0
+2025-06-12 09:52:31,297  INFO  New best cost: 6626
+2025-06-12 09:52:31,297  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:52:31,297  INFO  
+⚠️ 未找到 cost = 6666.0 的路徑。  改輸出目前最接近的 cost = 6626
+2025-06-12 09:53:26,879  INFO  Animation.save using <class 'matplotlib.animation.HTMLWriter'>
+2025-06-12 09:53:32,449  INFO  =========================================
+2025-06-12 09:53:32,450  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:53:32,450  INFO  =========================================
+2025-06-12 09:53:45,193  INFO  ============================================================
+2025-06-12 09:53:45,193  INFO    🤖 Self-Tuning TSP GA Solver
+2025-06-12 09:53:45,193  INFO  ============================================================
+2025-06-12 09:53:45,193  INFO  Instance: ch130.tsp
+2025-06-12 09:53:45,193  INFO  Target cost: 6678.0
+2025-06-12 09:53:45,193  INFO  Max attempts: 30
+2025-06-12 09:53:45,193  INFO  ============================================================
+2025-06-12 09:53:45,280  INFO  Loaded TSP instance with 130 cities
+2025-06-12 09:53:45,280  INFO  
+==================== ATTEMPT 1 ====================
+2025-06-12 09:53:45,323  INFO  Gen 0: Avg=28370.8, Min=7196.0
+2025-06-12 09:53:45,906  INFO  Gen 100: Avg=7390.6, Min=7320.0
+2025-06-12 09:53:46,540  INFO  Gen 200: Avg=7316.8, Min=7272.0
+2025-06-12 09:53:47,133  INFO  Gen 300: Avg=7231.5, Min=7195.0
+2025-06-12 09:53:47,736  INFO  Gen 400: Avg=7192.0, Min=7157.0
+2025-06-12 09:53:48,363  INFO  Gen 500: Avg=7171.6, Min=7112.0
+2025-06-12 09:53:49,010  INFO  Gen 600: Avg=7086.1, Min=7024.0
+2025-06-12 09:53:49,622  INFO  Gen 700: Avg=7053.9, Min=6990.0
+2025-06-12 09:53:50,240  INFO  Gen 800: Avg=7037.7, Min=6990.0
+2025-06-12 09:53:50,832  INFO  Gen 900: Avg=7049.8, Min=6988.0
+2025-06-12 09:53:51,428  INFO  Gen 1000: Avg=7069.4, Min=6988.0
+2025-06-12 09:53:51,428  INFO  Final best cost: 6939
+2025-06-12 09:53:51,428  INFO  Execution time: 6.11s
+2025-06-12 09:53:51,428  INFO  
+Attempt 1: Current cost = 6939, Target = 6678.0
+2025-06-12 09:53:51,428  INFO  New best cost: 6939
+2025-06-12 09:53:51,429  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:53:51,429  INFO  
+==================== ATTEMPT 2 ====================
+2025-06-12 09:53:51,466  INFO  Gen 0: Avg=32355.5, Min=7129.0
+2025-06-12 09:53:52,089  INFO  Gen 100: Avg=7073.4, Min=7025.0
+2025-06-12 09:53:52,681  INFO  Gen 200: Avg=7060.3, Min=7005.0
+2025-06-12 09:53:53,274  INFO  Gen 300: Avg=7032.4, Min=7005.0
+2025-06-12 09:53:53,884  INFO  Gen 400: Avg=7044.4, Min=6996.0
+2025-06-12 09:53:54,482  INFO  Gen 500: Avg=6938.6, Min=6860.0
+2025-06-12 09:53:55,088  INFO  Gen 600: Avg=6819.2, Min=6740.0
+2025-06-12 09:53:55,684  INFO  Gen 700: Avg=6780.5, Min=6710.0
+2025-06-12 09:53:56,289  INFO  Gen 800: Avg=6793.4, Min=6710.0
+2025-06-12 09:53:56,885  INFO  Gen 900: Avg=6760.0, Min=6695.0
+2025-06-12 09:53:57,479  INFO  Gen 1000: Avg=6722.1, Min=6694.0
+2025-06-12 09:53:57,479  INFO  Final best cost: 6626
+2025-06-12 09:53:57,479  INFO  Execution time: 6.01s
+2025-06-12 09:53:57,480  INFO  
+Attempt 2: Current cost = 6626, Target = 6678.0
+2025-06-12 09:53:57,480  INFO  New best cost: 6626
+2025-06-12 09:53:57,480  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:53:57,480  INFO  
+==================== ATTEMPT 3 ====================
+2025-06-12 09:53:57,508  INFO  Gen 0: Avg=35127.2, Min=7129.0
+2025-06-12 09:53:58,137  INFO  Gen 100: Avg=7392.1, Min=7330.0
+2025-06-12 09:53:58,749  INFO  Gen 200: Avg=7393.5, Min=7311.0
+2025-06-12 09:53:59,349  INFO  Gen 300: Avg=7310.9, Min=7253.0
+2025-06-12 09:53:59,945  INFO  Gen 400: Avg=7213.7, Min=7176.0
+2025-06-12 09:54:00,576  INFO  Gen 500: Avg=7239.0, Min=7161.0
+2025-06-12 09:54:01,221  INFO  Gen 600: Avg=7167.8, Min=7103.0
+2025-06-12 09:54:01,837  INFO  Gen 700: Avg=7190.4, Min=7103.0
+2025-06-12 09:54:02,461  INFO  Gen 800: Avg=7118.4, Min=7088.0
+2025-06-12 09:54:03,088  INFO  Gen 900: Avg=7125.2, Min=7037.0
+2025-06-12 09:54:03,714  INFO  Gen 1000: Avg=7059.0, Min=7036.0
+2025-06-12 09:54:03,714  INFO  Final best cost: 6993
+2025-06-12 09:54:03,714  INFO  Execution time: 6.21s
+2025-06-12 09:54:03,714  INFO  
+Attempt 3: Current cost = 6993, Target = 6678.0
+2025-06-12 09:54:03,714  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:03,714  INFO  
+==================== ATTEMPT 4 ====================
+2025-06-12 09:54:03,746  INFO  Gen 0: Avg=33769.6, Min=7261.0
+2025-06-12 09:54:04,344  INFO  Gen 100: Avg=7352.8, Min=7158.0
+2025-06-12 09:54:04,985  INFO  Gen 200: Avg=7179.1, Min=7106.0
+2025-06-12 09:54:05,615  INFO  Gen 300: Avg=7079.5, Min=6985.0
+2025-06-12 09:54:06,257  INFO  Gen 400: Avg=6996.3, Min=6921.0
+2025-06-12 09:54:06,901  INFO  Gen 500: Avg=6966.7, Min=6915.0
+2025-06-12 09:54:07,523  INFO  Gen 600: Avg=6886.1, Min=6814.0
+2025-06-12 09:54:08,170  INFO  Gen 700: Avg=6762.1, Min=6680.0
+2025-06-12 09:54:08,808  INFO  Gen 800: Avg=6732.4, Min=6659.0
+2025-06-12 09:54:09,426  INFO  Gen 900: Avg=6718.4, Min=6648.0
+2025-06-12 09:54:10,043  INFO  Gen 1000: Avg=6755.7, Min=6648.0
+2025-06-12 09:54:10,044  INFO  Final best cost: 6647
+2025-06-12 09:54:10,044  INFO  Execution time: 6.30s
+2025-06-12 09:54:10,045  INFO  
+Attempt 4: Current cost = 6647, Target = 6678.0
+2025-06-12 09:54:10,045  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:10,045  INFO  
+==================== ATTEMPT 5 ====================
+2025-06-12 09:54:10,081  INFO  Gen 0: Avg=32068.1, Min=7196.0
+2025-06-12 09:54:10,697  INFO  Gen 100: Avg=7759.9, Min=7589.0
+2025-06-12 09:54:11,348  INFO  Gen 200: Avg=7483.0, Min=7417.0
+2025-06-12 09:54:12,000  INFO  Gen 300: Avg=7301.0, Min=7218.0
+2025-06-12 09:54:12,642  INFO  Gen 400: Avg=6958.5, Min=6889.0
+2025-06-12 09:54:13,292  INFO  Gen 500: Avg=6947.9, Min=6858.0
+2025-06-12 09:54:13,943  INFO  Gen 600: Avg=6882.4, Min=6835.0
+2025-06-12 09:54:14,576  INFO  Gen 700: Avg=6918.7, Min=6835.0
+2025-06-12 09:54:15,234  INFO  Gen 800: Avg=6851.7, Min=6804.0
+2025-06-12 09:54:15,880  INFO  Gen 900: Avg=6852.7, Min=6786.0
+2025-06-12 09:54:16,505  INFO  Gen 1000: Avg=6840.1, Min=6786.0
+2025-06-12 09:54:16,506  INFO  Final best cost: 6745
+2025-06-12 09:54:16,506  INFO  Execution time: 6.43s
+2025-06-12 09:54:16,506  INFO  
+Attempt 5: Current cost = 6745, Target = 6678.0
+2025-06-12 09:54:16,507  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:16,507  INFO  
+==================== ATTEMPT 6 ====================
+2025-06-12 09:54:22,960  INFO  
+Attempt 6: Current cost = 6956, Target = 6678.0
+2025-06-12 09:54:22,960  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:22,960  INFO  
+==================== ATTEMPT 7 ====================
+2025-06-12 09:54:29,507  INFO  
+Attempt 7: Current cost = 6786, Target = 6678.0
+2025-06-12 09:54:29,508  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:29,508  INFO  
+==================== ATTEMPT 8 ====================
+2025-06-12 09:54:36,069  INFO  
+Attempt 8: Current cost = 6647, Target = 6678.0
+2025-06-12 09:54:36,069  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:36,069  INFO  
+==================== ATTEMPT 9 ====================
+2025-06-12 09:54:42,601  INFO  
+Attempt 9: Current cost = 6637, Target = 6678.0
+2025-06-12 09:54:42,601  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:42,601  INFO  
+==================== ATTEMPT 10 ====================
+2025-06-12 09:54:42,646  INFO  Gen 0: Avg=28247.6, Min=7129.0
+2025-06-12 09:54:43,290  INFO  Gen 100: Avg=7196.7, Min=7155.0
+2025-06-12 09:54:43,947  INFO  Gen 200: Avg=7140.5, Min=7119.0
+2025-06-12 09:54:44,591  INFO  Gen 300: Avg=7133.4, Min=7083.0
+2025-06-12 09:54:45,248  INFO  Gen 400: Avg=6909.7, Min=6845.0
+2025-06-12 09:54:45,866  INFO  Gen 500: Avg=6894.0, Min=6823.0
+2025-06-12 09:54:46,485  INFO  Gen 600: Avg=6811.6, Min=6766.0
+2025-06-12 09:54:47,101  INFO  Gen 700: Avg=6823.2, Min=6759.0
+2025-06-12 09:54:47,731  INFO  Gen 800: Avg=6841.9, Min=6758.0
+2025-06-12 09:54:48,397  INFO  Gen 900: Avg=6840.8, Min=6758.0
+2025-06-12 09:54:49,073  INFO  Gen 1000: Avg=6761.5, Min=6738.0
+2025-06-12 09:54:49,074  INFO  Final best cost: 6738
+2025-06-12 09:54:49,074  INFO  Execution time: 6.43s
+2025-06-12 09:54:49,075  INFO  
+Attempt 10: Current cost = 6738, Target = 6678.0
+2025-06-12 09:54:49,075  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:49,075  INFO  
+==================== ATTEMPT 11 ====================
+2025-06-12 09:54:55,726  INFO  
+Attempt 11: Current cost = 6609, Target = 6678.0
+2025-06-12 09:54:55,726  INFO  New best cost: 6609
+2025-06-12 09:54:55,726  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:54:55,726  INFO  
+==================== ATTEMPT 12 ====================
+2025-06-12 09:55:02,279  INFO  
+Attempt 12: Current cost = 6894, Target = 6678.0
+2025-06-12 09:55:02,280  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:55:02,280  INFO  
+==================== ATTEMPT 13 ====================
+2025-06-12 09:55:08,803  INFO  
+Attempt 13: Current cost = 6684, Target = 6678.0
+2025-06-12 09:55:08,803  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 09:55:08,803  INFO  
+==================== ATTEMPT 14 ====================
+2025-06-12 09:55:15,198  INFO  
+Attempt 14: Current cost = 7036, Target = 6678.0
+2025-06-12 09:55:15,199  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 09:55:15,199  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:55:15,199  INFO  
+==================== ATTEMPT 15 ====================
+2025-06-12 09:55:15,275  INFO  Gen 0: Avg=29652.7, Min=7192.0
+2025-06-12 09:55:16,577  INFO  Gen 100: Avg=7452.7, Min=7194.0
+2025-06-12 09:55:17,885  INFO  Gen 200: Avg=6967.5, Min=6868.0
+2025-06-12 09:55:19,186  INFO  Gen 300: Avg=6789.2, Min=6690.0
+2025-06-12 09:55:20,490  INFO  Gen 400: Avg=6767.5, Min=6668.0
+2025-06-12 09:55:21,791  INFO  Gen 500: Avg=6682.3, Min=6626.0
+2025-06-12 09:55:23,159  INFO  Gen 600: Avg=6722.1, Min=6626.0
+2025-06-12 09:55:24,441  INFO  Gen 700: Avg=6710.4, Min=6626.0
+2025-06-12 09:55:25,731  INFO  Gen 800: Avg=6717.9, Min=6626.0
+2025-06-12 09:55:27,029  INFO  Gen 900: Avg=6720.5, Min=6624.0
+2025-06-12 09:55:28,370  INFO  Gen 1000: Avg=6735.8, Min=6624.0
+2025-06-12 09:55:29,666  INFO  Gen 1100: Avg=6710.3, Min=6624.0
+2025-06-12 09:55:30,967  INFO  Gen 1200: Avg=6716.3, Min=6624.0
+2025-06-12 09:55:32,270  INFO  Gen 1300: Avg=6740.1, Min=6616.0
+2025-06-12 09:55:33,536  INFO  Gen 1400: Avg=6701.8, Min=6616.0
+2025-06-12 09:55:34,862  INFO  Gen 1500: Avg=6709.0, Min=6616.0
+2025-06-12 09:55:34,862  INFO  Final best cost: 6616
+2025-06-12 09:55:34,862  INFO  Execution time: 19.59s
+2025-06-12 09:55:34,863  INFO  
+Attempt 15: Current cost = 6616, Target = 6678.0
+2025-06-12 09:55:34,863  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:55:34,863  INFO  
+==================== ATTEMPT 16 ====================
+2025-06-12 09:55:55,069  INFO  
+Attempt 16: Current cost = 6457, Target = 6678.0
+2025-06-12 09:55:55,069  INFO  New best cost: 6457
+2025-06-12 09:55:55,069  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:55:55,069  INFO  
+==================== ATTEMPT 17 ====================
+2025-06-12 09:56:14,770  INFO  
+Attempt 17: Current cost = 6342, Target = 6678.0
+2025-06-12 09:56:14,771  INFO  New best cost: 6342
+2025-06-12 09:56:14,771  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:56:14,771  INFO  
+==================== ATTEMPT 18 ====================
+2025-06-12 09:56:33,529  INFO  
+Attempt 18: Current cost = 6550, Target = 6678.0
+2025-06-12 09:56:33,529  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:56:33,529  INFO  
+==================== ATTEMPT 19 ====================
+2025-06-12 09:56:52,214  INFO  
+Attempt 19: Current cost = 6422, Target = 6678.0
+2025-06-12 09:56:52,214  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:56:52,214  INFO  
+==================== ATTEMPT 20 ====================
+2025-06-12 09:56:52,277  INFO  Gen 0: Avg=32542.9, Min=7196.0
+2025-06-12 09:56:53,537  INFO  Gen 100: Avg=7195.0, Min=7115.0
+2025-06-12 09:56:54,804  INFO  Gen 200: Avg=7126.9, Min=7034.0
+2025-06-12 09:56:56,006  INFO  Gen 300: Avg=7111.5, Min=7010.0
+2025-06-12 09:56:57,201  INFO  Gen 400: Avg=7035.9, Min=6922.0
+2025-06-12 09:56:58,438  INFO  Gen 500: Avg=6946.4, Min=6826.0
+2025-06-12 09:56:59,653  INFO  Gen 600: Avg=6896.1, Min=6806.0
+2025-06-12 09:57:00,921  INFO  Gen 700: Avg=6796.8, Min=6635.0
+2025-06-12 09:57:02,151  INFO  Gen 800: Avg=6703.5, Min=6619.0
+2025-06-12 09:57:03,405  INFO  Gen 900: Avg=6690.0, Min=6619.0
+2025-06-12 09:57:04,663  INFO  Gen 1000: Avg=6705.8, Min=6619.0
+2025-06-12 09:57:05,933  INFO  Gen 1100: Avg=6705.5, Min=6619.0
+2025-06-12 09:57:07,161  INFO  Gen 1200: Avg=6696.3, Min=6619.0
+2025-06-12 09:57:08,409  INFO  Gen 1300: Avg=6703.1, Min=6619.0
+2025-06-12 09:57:09,685  INFO  Gen 1400: Avg=6710.3, Min=6619.0
+2025-06-12 09:57:10,901  INFO  Gen 1500: Avg=6679.3, Min=6526.0
+2025-06-12 09:57:10,901  INFO  Final best cost: 6526
+2025-06-12 09:57:10,901  INFO  Execution time: 18.63s
+2025-06-12 09:57:10,902  INFO  
+Attempt 20: Current cost = 6526, Target = 6678.0
+2025-06-12 09:57:10,902  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:57:10,902  INFO  
+==================== ATTEMPT 21 ====================
+2025-06-12 09:57:29,405  INFO  
+Attempt 21: Current cost = 6745, Target = 6678.0
+2025-06-12 09:57:29,405  INFO  Low improvement - applying aggressive parameter changes
+2025-06-12 09:57:29,405  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:57:29,406  INFO  
+==================== ATTEMPT 22 ====================
+2025-06-12 09:58:14,442  INFO  
+Attempt 22: Current cost = 6496, Target = 6678.0
+2025-06-12 09:58:14,442  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:58:14,442  INFO  
+==================== ATTEMPT 23 ====================
+2025-06-12 09:58:59,621  INFO  
+Attempt 23: Current cost = 6347, Target = 6678.0
+2025-06-12 09:58:59,621  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 1500, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 09:58:59,621  INFO  
+==================== ATTEMPT 24 ====================
+2025-06-12 10:00:01,741  INFO  ============================================================
+2025-06-12 10:00:01,742  INFO   🤖 Self-Tuning TSP GA Solver
+2025-06-12 10:00:01,742  INFO  ============================================================
+2025-06-12 10:00:01,742  INFO  Instance: ch130.tsp
+2025-06-12 10:00:01,742  INFO  Target cost: 6689.0
+2025-06-12 10:00:01,742  INFO  Max attempts: 5
+2025-06-12 10:00:01,742  INFO  ============================================================
+2025-06-12 10:00:01,771  INFO  Loaded TSP instance with 130 cities.
+2025-06-12 10:00:01,771  INFO  
+========================= ATTEMPT 1/5 =========================
+2025-06-12 10:00:07,804  INFO  
+Attempt 1: Current cost = 6875.0, Target = 6689.0
+2025-06-12 10:00:07,804  INFO  New best cost: 6875.0
+2025-06-12 10:00:07,804  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:00:07,804  INFO  
+========================= ATTEMPT 2/5 =========================
+2025-06-12 10:00:13,670  INFO  
+Attempt 2: Current cost = 6883.0, Target = 6689.0
+2025-06-12 10:00:13,670  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:00:13,670  INFO  
+========================= ATTEMPT 3/5 =========================
+2025-06-12 10:00:19,422  INFO  
+Attempt 3: Current cost = 6638.0, Target = 6689.0
+2025-06-12 10:00:19,423  INFO  New best cost: 6638.0
+2025-06-12 10:00:19,423  INFO  🎉 Target cost 6689.0 met or beaten with cost 6638.0!
+2025-06-12 10:00:19,423  INFO  
+============================================================
+2025-06-12 10:00:19,423  INFO   🎯 SELF-TUNING FINAL RESULTS
+2025-06-12 10:00:19,423  INFO  ============================================================
+2025-06-12 10:00:19,423  INFO  ✅ Target achieved! Displaying result for cost: 6638.00
+2025-06-12 10:00:45,246  INFO  
+Best cost achieved: 6638.00
+2025-06-12 10:00:45,246  INFO  Closest cost to target: 6638.00
+2025-06-12 10:00:45,246  INFO  Target cost: 6689.00
+2025-06-12 10:00:45,246  INFO  Target achieved: ✅ YES
+2025-06-12 10:00:45,246  INFO  Total attempts: 3
+2025-06-12 10:00:45,246  INFO  Parameters for best (minimum) cost: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:00:45,246  INFO  Parameters for closest to target: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:00:45,254  INFO  Tuning history saved to tuning_history.json
+2025-06-12 10:00:45,254  INFO  
+Generating parameter vs. cost plots...
+2025-06-12 10:01:27,797  INFO  ============================================================
+2025-06-12 10:01:27,798  INFO   🤖 開始執行自調諧 TSP 遺傳演算法求解器
+2025-06-12 10:01:27,798  INFO  ============================================================
+2025-06-12 10:01:27,798  INFO  問題實例: ch130.tsp
+2025-06-12 10:01:27,798  INFO  目標成本: 6698.0
+2025-06-12 10:01:27,798  INFO  最大嘗試次數: 10
+2025-06-12 10:01:27,798  INFO  ============================================================
+2025-06-12 10:01:27,828  INFO  已載入 TSP 問題，共有 130 個城市。
+2025-06-12 10:01:27,828  INFO  
+========================= 第 1/10 次嘗試 =========================
+2025-06-12 10:01:33,642  INFO  
+第 1 次嘗試: 目前成本 = 6707.0, 目標成本 = 6698.0
+2025-06-12 10:01:33,642  INFO  找到新的最佳成本: 6707.0
+2025-06-12 10:01:33,642  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:01:33,642  INFO  
+========================= 第 2/10 次嘗試 =========================
+2025-06-12 10:01:39,465  INFO  
+第 2 次嘗試: 目前成本 = 6669.0, 目標成本 = 6698.0
+2025-06-12 10:01:39,466  INFO  找到新的最佳成本: 6669.0
+2025-06-12 10:01:39,466  INFO  🎉 成本已達標！ (6698.0)，目前成本為 6669.0!
+2025-06-12 10:01:39,466  INFO  
+============================================================
+2025-06-12 10:01:39,466  INFO   🎯 自調諧結束，最終結果報告
+2025-06-12 10:01:39,466  INFO  ============================================================
+2025-06-12 10:01:39,467  INFO  ✅ 目標已達成！顯示成本為 6669.00 的結果
+2025-06-12 10:06:52,813  INFO  ============================================================
+2025-06-12 10:06:52,813  INFO   🤖 開始執行自調諧 TSP 遺傳演算法求解器
+2025-06-12 10:06:52,813  INFO  ============================================================
+2025-06-12 10:06:52,813  INFO  問題實例: ch130.tsp
+2025-06-12 10:06:52,813  INFO  目標成本: 6989.0
+2025-06-12 10:06:52,813  INFO  最大嘗試次數: 20
+2025-06-12 10:06:52,813  INFO  ============================================================
+2025-06-12 10:06:52,844  INFO  已載入 TSP 問題，共有 130 個城市。
+2025-06-12 10:06:52,844  INFO  
+========================= 第 1/20 次嘗試 =========================
+2025-06-12 10:06:58,753  INFO  
+第 1 次嘗試: 目前成本 = 6615.0, 目標成本 = 6989.0
+2025-06-12 10:06:58,753  INFO  找到新的最佳成本: 6615.0
+2025-06-12 10:06:58,754  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:06:58,754  INFO  
+========================= 第 2/20 次嘗試 =========================
+2025-06-12 10:07:19,537  INFO  ============================================================
+2025-06-12 10:07:19,537  INFO   🤖 開始執行自調諧 TSP 遺傳演算法求解器
+2025-06-12 10:07:19,537  INFO  ============================================================
+2025-06-12 10:07:19,537  INFO  問題實例: ch130.tsp
+2025-06-12 10:07:19,537  INFO  目標成本: 6754.0
+2025-06-12 10:07:19,537  INFO  最大嘗試次數: 5
+2025-06-12 10:07:19,537  INFO  ============================================================
+2025-06-12 10:07:19,569  INFO  已載入 TSP 問題，共有 130 個城市。
+2025-06-12 10:07:19,569  INFO  
+========================= 第 1/5 次嘗試 =========================
+2025-06-12 10:07:25,357  INFO  
+第 1 次嘗試: 目前成本 = 6989.0, 目標成本 = 6754.0
+2025-06-12 10:07:25,357  INFO  找到新的最佳成本: 6989.0
+2025-06-12 10:07:25,357  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:07:25,357  INFO  
+========================= 第 2/5 次嘗試 =========================
+2025-06-12 10:07:31,170  INFO  
+第 2 次嘗試: 目前成本 = 6806.0, 目標成本 = 6754.0
+2025-06-12 10:07:31,170  INFO  找到新的最佳成本: 6806.0
+2025-06-12 10:07:31,170  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:07:31,170  INFO  
+========================= 第 3/5 次嘗試 =========================
+2025-06-12 10:07:37,053  INFO  
+第 3 次嘗試: 目前成本 = 7227.0, 目標成本 = 6754.0
+2025-06-12 10:07:37,053  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:07:37,053  INFO  
+========================= 第 4/5 次嘗試 =========================
+2025-06-12 10:07:42,936  INFO  
+第 4 次嘗試: 目前成本 = 7046.0, 目標成本 = 6754.0
+2025-06-12 10:07:42,937  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:07:42,937  INFO  
+========================= 第 5/5 次嘗試 =========================
+2025-06-12 10:07:48,860  INFO  
+第 5 次嘗試: 目前成本 = 6941.0, 目標成本 = 6754.0
+2025-06-12 10:07:48,861  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:07:48,861  INFO  
+============================================================
+2025-06-12 10:07:48,861  INFO   🎯 自調諧結束，最終結果報告
+2025-06-12 10:07:48,861  INFO  ============================================================
+2025-06-12 10:07:48,861  INFO  ⚠️ 未能達到精確目標。顯示找到的最接近結果，成本為: 6806.00 (與目標差距: 52.00)
+2025-06-12 10:09:08,746  INFO  
+找到的最佳成本 (絕對最低): 6806.00
+2025-06-12 10:09:08,746  INFO  與目標最接近的成本: 6806.00
+2025-06-12 10:09:08,746  INFO  設定的目標成本: 6754.00
+2025-06-12 10:09:08,746  INFO  是否達成精確目標: ❌ 否
+2025-06-12 10:09:08,746  INFO  總嘗試次數: 5
+2025-06-12 10:09:08,746  INFO  產生最佳成本的參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:09:08,746  INFO  產生最接近成本的參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:09:08,752  INFO  調校歷史已儲存至 tuning_history.json
+2025-06-12 10:09:08,752  INFO  
+正在生成「參數 vs. 成本」關係圖...
+2025-06-12 10:12:08,669  INFO  ============================================================
+2025-06-12 10:12:08,669  INFO   🤖 開始執行自調諧 TSP 遺傳演算法求解器
+2025-06-12 10:12:08,669  INFO  ============================================================
+2025-06-12 10:12:08,669  INFO  問題實例: ch130.tsp
+2025-06-12 10:12:08,669  INFO  目標成本: 6999.0
+2025-06-12 10:12:08,669  INFO  最大嘗試次數: 10
+2025-06-12 10:12:08,670  INFO  ============================================================
+2025-06-12 10:12:08,700  INFO  已載入 TSP 問題，共有 130 個城市。
+2025-06-12 10:12:08,700  INFO  
+========================= 第 1/10 次嘗試 =========================
+2025-06-12 10:12:14,535  INFO  
+第 1 次嘗試: 目前成本 = 6928.0, 目標成本 = 6999.0
+2025-06-12 10:12:14,535  INFO  找到新的最佳成本: 6928.0
+2025-06-12 10:12:14,535  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:14,535  INFO  
+========================= 第 2/10 次嘗試 =========================
+2025-06-12 10:12:20,445  INFO  
+第 2 次嘗試: 目前成本 = 6929.0, 目標成本 = 6999.0
+2025-06-12 10:12:20,445  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:20,445  INFO  
+========================= 第 3/10 次嘗試 =========================
+2025-06-12 10:12:26,439  INFO  
+第 3 次嘗試: 目前成本 = 6794.0, 目標成本 = 6999.0
+2025-06-12 10:12:26,439  INFO  找到新的最佳成本: 6794.0
+2025-06-12 10:12:26,439  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:26,439  INFO  
+========================= 第 4/10 次嘗試 =========================
+2025-06-12 10:12:32,548  INFO  
+第 4 次嘗試: 目前成本 = 6937.0, 目標成本 = 6999.0
+2025-06-12 10:12:32,549  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:32,549  INFO  
+========================= 第 5/10 次嘗試 =========================
+2025-06-12 10:12:38,649  INFO  
+第 5 次嘗試: 目前成本 = 6819.0, 目標成本 = 6999.0
+2025-06-12 10:12:38,650  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:38,650  INFO  
+========================= 第 6/10 次嘗試 =========================
+2025-06-12 10:12:44,596  INFO  
+第 6 次嘗試: 目前成本 = 6959.0, 目標成本 = 6999.0
+2025-06-12 10:12:44,596  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:44,596  INFO  
+========================= 第 7/10 次嘗試 =========================
+2025-06-12 10:12:50,502  INFO  
+第 7 次嘗試: 目前成本 = 6834.0, 目標成本 = 6999.0
+2025-06-12 10:12:50,502  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:50,502  INFO  
+========================= 第 8/10 次嘗試 =========================
+2025-06-12 10:12:56,366  INFO  
+第 8 次嘗試: 目前成本 = 6744.0, 目標成本 = 6999.0
+2025-06-12 10:12:56,367  INFO  找到新的最佳成本: 6744.0
+2025-06-12 10:12:56,367  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:12:56,367  INFO  
+========================= 第 9/10 次嘗試 =========================
+2025-06-12 10:13:02,307  INFO  
+第 9 次嘗試: 目前成本 = 6744.0, 目標成本 = 6999.0
+2025-06-12 10:13:02,307  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:13:02,307  INFO  
+========================= 第 10/10 次嘗試 =========================
+2025-06-12 10:13:08,243  INFO  
+第 10 次嘗試: 目前成本 = 6678.0, 目標成本 = 6999.0
+2025-06-12 10:13:08,243  INFO  找到新的最佳成本: 6678.0
+2025-06-12 10:13:08,244  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:13:08,244  INFO  
+============================================================
+2025-06-12 10:13:08,244  INFO   🎯 自調諧結束，最終結果報告
+2025-06-12 10:13:08,244  INFO  ============================================================
+2025-06-12 10:13:08,244  INFO  ⚠️ 未能達到精確目標。顯示找到的最接近結果，成本為: 6959.00 (與目標差距: 40.00)
+2025-06-12 10:16:39,763  INFO  ------------------------------------------------------------
+2025-06-12 10:16:39,763  INFO  ⚠️ 未能達到精確目標。
+2025-06-12 10:16:39,763  INFO  ------------------------------------------------------------
+2025-06-12 10:16:39,763  INFO  --- [最接近目標的結果] ---
+2025-06-12 10:16:39,764  INFO    - 成本: 6959.00 (與目標差距: 40.00)
+2025-06-12 10:16:39,764  INFO    - 對應參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:16:39,764  INFO  
+--- [歷史最低成本的結果] ---
+2025-06-12 10:16:39,764  INFO    - 成本: 6678.00
+2025-06-12 10:16:39,764  INFO    - 對應參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:16:39,764  INFO  ------------------------------------------------------------
+2025-06-12 10:16:39,764  INFO    - 設定的目標成本: 6999.00
+2025-06-12 10:16:39,764  INFO    - 總嘗試次數: 10
+2025-06-12 10:16:39,764  INFO  ============================================================
+2025-06-12 10:16:39,764  INFO  調校歷史已儲存至 tuning_history.json
+2025-06-12 10:16:39,764  INFO  
+正在生成「參數 vs. 成本」關係圖...
+2025-06-12 10:17:48,216  INFO  ============================================================
+2025-06-12 10:17:48,216  INFO   🤖 開始執行自調諧 TSP 遺傳演算法求解器
+2025-06-12 10:17:48,216  INFO  ============================================================
+2025-06-12 10:17:48,216  INFO  問題實例: ch130.tsp
+2025-06-12 10:17:48,217  INFO  目標成本: 6999.0
+2025-06-12 10:17:48,217  INFO  最大嘗試次數: 20
+2025-06-12 10:17:48,217  INFO  ============================================================
+2025-06-12 10:17:48,248  INFO  已載入 TSP 問題，共有 130 個城市。
+2025-06-12 10:17:48,248  INFO  
+========================= 第 1/20 次嘗試 =========================
+2025-06-12 10:17:54,074  INFO  
+第 1 次嘗試: 目前成本 = 6826.0, 目標成本 = 6999.0
+2025-06-12 10:17:54,074  INFO  找到新的最佳成本: 6826.0
+2025-06-12 10:17:54,074  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:17:54,074  INFO  
+========================= 第 2/20 次嘗試 =========================
+2025-06-12 10:18:00,071  INFO  
+第 2 次嘗試: 目前成本 = 6967.0, 目標成本 = 6999.0
+2025-06-12 10:18:00,071  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:00,071  INFO  
+========================= 第 3/20 次嘗試 =========================
+2025-06-12 10:18:06,109  INFO  
+第 3 次嘗試: 目前成本 = 6662.0, 目標成本 = 6999.0
+2025-06-12 10:18:06,109  INFO  找到新的最佳成本: 6662.0
+2025-06-12 10:18:06,109  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:06,109  INFO  
+========================= 第 4/20 次嘗試 =========================
+2025-06-12 10:18:12,159  INFO  
+第 4 次嘗試: 目前成本 = 6809.0, 目標成本 = 6999.0
+2025-06-12 10:18:12,159  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:12,159  INFO  
+========================= 第 5/20 次嘗試 =========================
+2025-06-12 10:18:18,267  INFO  
+第 5 次嘗試: 目前成本 = 6863.0, 目標成本 = 6999.0
+2025-06-12 10:18:18,267  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:18,267  INFO  
+========================= 第 6/20 次嘗試 =========================
+2025-06-12 10:18:24,364  INFO  
+第 6 次嘗試: 目前成本 = 6689.0, 目標成本 = 6999.0
+2025-06-12 10:18:24,364  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:24,364  INFO  
+========================= 第 7/20 次嘗試 =========================
+2025-06-12 10:18:30,455  INFO  
+第 7 次嘗試: 目前成本 = 6904.0, 目標成本 = 6999.0
+2025-06-12 10:18:30,455  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:30,455  INFO  
+========================= 第 8/20 次嘗試 =========================
+2025-06-12 10:18:36,519  INFO  
+第 8 次嘗試: 目前成本 = 6804.0, 目標成本 = 6999.0
+2025-06-12 10:18:36,519  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:36,519  INFO  
+========================= 第 9/20 次嘗試 =========================
+2025-06-12 10:18:42,662  INFO  
+第 9 次嘗試: 目前成本 = 6809.0, 目標成本 = 6999.0
+2025-06-12 10:18:42,662  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:42,662  INFO  
+========================= 第 10/20 次嘗試 =========================
+2025-06-12 10:18:48,711  INFO  
+第 10 次嘗試: 目前成本 = 6959.0, 目標成本 = 6999.0
+2025-06-12 10:18:48,711  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:48,711  INFO  
+========================= 第 11/20 次嘗試 =========================
+2025-06-12 10:18:54,647  INFO  
+第 11 次嘗試: 目前成本 = 6750.0, 目標成本 = 6999.0
+2025-06-12 10:18:54,647  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:18:54,647  INFO  
+========================= 第 12/20 次嘗試 =========================
+2025-06-12 10:19:00,628  INFO  
+第 12 次嘗試: 目前成本 = 6692.0, 目標成本 = 6999.0
+2025-06-12 10:19:00,628  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:00,628  INFO  
+========================= 第 13/20 次嘗試 =========================
+2025-06-12 10:19:06,523  INFO  
+第 13 次嘗試: 目前成本 = 6991.0, 目標成本 = 6999.0
+2025-06-12 10:19:06,523  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:06,523  INFO  
+========================= 第 14/20 次嘗試 =========================
+2025-06-12 10:19:12,384  INFO  
+第 14 次嘗試: 目前成本 = 6611.0, 目標成本 = 6999.0
+2025-06-12 10:19:12,384  INFO  找到新的最佳成本: 6611.0
+2025-06-12 10:19:12,385  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:12,385  INFO  
+========================= 第 15/20 次嘗試 =========================
+2025-06-12 10:19:18,298  INFO  
+第 15 次嘗試: 目前成本 = 6792.0, 目標成本 = 6999.0
+2025-06-12 10:19:18,298  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:18,298  INFO  
+========================= 第 16/20 次嘗試 =========================
+2025-06-12 10:19:24,415  INFO  
+第 16 次嘗試: 目前成本 = 6693.0, 目標成本 = 6999.0
+2025-06-12 10:19:24,415  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:24,415  INFO  
+========================= 第 17/20 次嘗試 =========================
+2025-06-12 10:19:30,577  INFO  
+第 17 次嘗試: 目前成本 = 6750.0, 目標成本 = 6999.0
+2025-06-12 10:19:30,577  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:30,577  INFO  
+========================= 第 18/20 次嘗試 =========================
+2025-06-12 10:19:36,537  INFO  
+第 18 次嘗試: 目前成本 = 6803.0, 目標成本 = 6999.0
+2025-06-12 10:19:36,538  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:36,538  INFO  
+========================= 第 19/20 次嘗試 =========================
+2025-06-12 10:19:42,577  INFO  
+第 19 次嘗試: 目前成本 = 6884.0, 目標成本 = 6999.0
+2025-06-12 10:19:42,577  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:42,577  INFO  
+========================= 第 20/20 次嘗試 =========================
+2025-06-12 10:19:48,570  INFO  
+第 20 次嘗試: 目前成本 = 6759.0, 目標成本 = 6999.0
+2025-06-12 10:19:48,571  INFO  調整後的新參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:19:48,571  INFO  
+============================================================
+2025-06-12 10:19:48,571  INFO   🎯 自調諧結束，最終結果報告
+2025-06-12 10:19:48,571  INFO  ============================================================
+2025-06-12 10:19:48,571  INFO  ⚠️ 未能達到精確目標。顯示找到的最接近結果，成本為: 6991.00 (與目標差距: 8.00)
+2025-06-12 10:35:02,858  INFO  ------------------------------------------------------------
+2025-06-12 10:35:02,860  INFO  ⚠️ 未能達到精確目標。
+2025-06-12 10:35:02,860  INFO  ------------------------------------------------------------
+2025-06-12 10:35:02,860  INFO  --- [最接近目標的結果] ---
+2025-06-12 10:35:02,860  INFO    - 成本: 6991.00 (與目標差距: 8.00)
+2025-06-12 10:35:02,860  INFO    - 對應參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:35:02,860  INFO  
+--- [歷史最低成本的結果] ---
+2025-06-12 10:35:02,860  INFO    - 成本: 6611.00
+2025-06-12 10:35:02,861  INFO    - 對應參數: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:35:02,861  INFO  ------------------------------------------------------------
+2025-06-12 10:35:02,861  INFO    - 設定的目標成本: 6999.00
+2025-06-12 10:35:02,861  INFO    - 總嘗試次數: 20
+2025-06-12 10:35:02,861  INFO  ============================================================
+2025-06-12 10:35:02,863  INFO  調校歷史已儲存至 tuning_history.json
+2025-06-12 10:35:02,863  INFO  
+正在生成「參數 vs. 成本」關係圖...
+2025-06-12 10:46:42,132  INFO  ========================================
+2025-06-12 10:46:42,132  INFO        TSP GA Solver - Interactive Menu
+2025-06-12 10:46:42,132  INFO  ========================================
+2025-06-12 10:47:00,490  INFO  ============================================================
+2025-06-12 10:47:00,490  INFO   🤖 Mode 1: Find Specific Cost (Self-Tuning Solver)
+2025-06-12 10:47:00,490  INFO  ============================================================
+2025-06-12 10:47:00,528  INFO  Loaded TSP instance with 130 cities.
+2025-06-12 10:47:00,528  INFO  
+========================= Attempt 1/30 =========================
+2025-06-12 10:47:06,395  INFO  
+Attempt 1: Current Cost = 6827.0, Target = 6978.0
+2025-06-12 10:47:06,396  INFO  New best cost found: 6827.0
+2025-06-12 10:47:06,396  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:06,396  INFO  
+========================= Attempt 2/30 =========================
+2025-06-12 10:47:12,124  INFO  
+Attempt 2: Current Cost = 6655.0, Target = 6978.0
+2025-06-12 10:47:12,124  INFO  New best cost found: 6655.0
+2025-06-12 10:47:12,124  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:12,124  INFO  
+========================= Attempt 3/30 =========================
+2025-06-12 10:47:17,841  INFO  
+Attempt 3: Current Cost = 6795.0, Target = 6978.0
+2025-06-12 10:47:17,841  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:17,841  INFO  
+========================= Attempt 4/30 =========================
+2025-06-12 10:47:23,597  INFO  
+Attempt 4: Current Cost = 6778.0, Target = 6978.0
+2025-06-12 10:47:23,598  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:23,598  INFO  
+========================= Attempt 5/30 =========================
+2025-06-12 10:47:29,380  INFO  
+Attempt 5: Current Cost = 6793.0, Target = 6978.0
+2025-06-12 10:47:29,380  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:29,381  INFO  
+========================= Attempt 6/30 =========================
+2025-06-12 10:47:35,164  INFO  
+Attempt 6: Current Cost = 6977.0, Target = 6978.0
+2025-06-12 10:47:35,164  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:35,164  INFO  
+========================= Attempt 7/30 =========================
+2025-06-12 10:47:41,011  INFO  
+Attempt 7: Current Cost = 6819.0, Target = 6978.0
+2025-06-12 10:47:41,011  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:41,011  INFO  
+========================= Attempt 8/30 =========================
+2025-06-12 10:47:46,972  INFO  
+Attempt 8: Current Cost = 6741.0, Target = 6978.0
+2025-06-12 10:47:46,972  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:46,972  INFO  
+========================= Attempt 9/30 =========================
+2025-06-12 10:47:52,712  INFO  
+Attempt 9: Current Cost = 6606.0, Target = 6978.0
+2025-06-12 10:47:52,712  INFO  New best cost found: 6606.0
+2025-06-12 10:47:52,712  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:52,712  INFO  
+========================= Attempt 10/30 =========================
+2025-06-12 10:47:58,565  INFO  
+Attempt 10: Current Cost = 6732.0, Target = 6978.0
+2025-06-12 10:47:58,566  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:47:58,566  INFO  
+========================= Attempt 11/30 =========================
+2025-06-12 10:48:04,582  INFO  
+Attempt 11: Current Cost = 6941.0, Target = 6978.0
+2025-06-12 10:48:04,582  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:04,582  INFO  
+========================= Attempt 12/30 =========================
+2025-06-12 10:48:10,382  INFO  
+Attempt 12: Current Cost = 6756.0, Target = 6978.0
+2025-06-12 10:48:10,382  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:10,382  INFO  
+========================= Attempt 13/30 =========================
+2025-06-12 10:48:16,167  INFO  
+Attempt 13: Current Cost = 6774.0, Target = 6978.0
+2025-06-12 10:48:16,168  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:16,168  INFO  
+========================= Attempt 14/30 =========================
+2025-06-12 10:48:22,039  INFO  
+Attempt 14: Current Cost = 6812.0, Target = 6978.0
+2025-06-12 10:48:22,040  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:22,040  INFO  
+========================= Attempt 15/30 =========================
+2025-06-12 10:48:27,932  INFO  
+Attempt 15: Current Cost = 6607.0, Target = 6978.0
+2025-06-12 10:48:27,933  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:27,933  INFO  
+========================= Attempt 16/30 =========================
+2025-06-12 10:48:34,006  INFO  
+Attempt 16: Current Cost = 7123.0, Target = 6978.0
+2025-06-12 10:48:34,007  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 10:48:34,007  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:48:34,007  INFO  
+========================= Attempt 17/30 =========================
+2025-06-12 10:49:00,618  INFO  
+Attempt 17: Current Cost = 6515.0, Target = 6978.0
+2025-06-12 10:49:00,618  INFO  New best cost found: 6515.0
+2025-06-12 10:49:00,618  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:49:00,618  INFO  
+========================= Attempt 18/30 =========================
+2025-06-12 10:49:27,429  INFO  
+Attempt 18: Current Cost = 6538.0, Target = 6978.0
+2025-06-12 10:49:27,429  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:49:27,429  INFO  
+========================= Attempt 19/30 =========================
+2025-06-12 10:49:54,597  INFO  
+Attempt 19: Current Cost = 6500.0, Target = 6978.0
+2025-06-12 10:49:54,598  INFO  New best cost found: 6500.0
+2025-06-12 10:49:54,598  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:49:54,598  INFO  
+========================= Attempt 20/30 =========================
+2025-06-12 10:50:21,981  INFO  
+Attempt 20: Current Cost = 6472.0, Target = 6978.0
+2025-06-12 10:50:21,982  INFO  New best cost found: 6472.0
+2025-06-12 10:50:21,982  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:50:21,982  INFO  
+========================= Attempt 21/30 =========================
+2025-06-12 10:50:48,960  INFO  
+Attempt 21: Current Cost = 6648.0, Target = 6978.0
+2025-06-12 10:50:48,960  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:50:48,960  INFO  
+========================= Attempt 22/30 =========================
+2025-06-12 10:51:16,297  INFO  
+Attempt 22: Current Cost = 6606.0, Target = 6978.0
+2025-06-12 10:51:16,298  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:51:16,298  INFO  
+========================= Attempt 23/30 =========================
+2025-06-12 10:51:43,268  INFO  
+Attempt 23: Current Cost = 6676.0, Target = 6978.0
+2025-06-12 10:51:43,268  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:51:43,268  INFO  
+========================= Attempt 24/30 =========================
+2025-06-12 10:52:10,321  INFO  
+Attempt 24: Current Cost = 6479.0, Target = 6978.0
+2025-06-12 10:52:10,322  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:52:10,322  INFO  
+========================= Attempt 25/30 =========================
+2025-06-12 10:52:36,957  INFO  
+Attempt 25: Current Cost = 6310.0, Target = 6978.0
+2025-06-12 10:52:36,957  INFO  New best cost found: 6310.0
+2025-06-12 10:52:36,957  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:52:36,958  INFO  
+========================= Attempt 26/30 =========================
+2025-06-12 10:53:03,638  INFO  
+Attempt 26: Current Cost = 6568.0, Target = 6978.0
+2025-06-12 10:53:03,639  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:53:03,639  INFO  
+========================= Attempt 27/30 =========================
+2025-06-12 10:53:30,237  INFO  
+Attempt 27: Current Cost = 6507.0, Target = 6978.0
+2025-06-12 10:53:30,237  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:53:30,237  INFO  
+========================= Attempt 28/30 =========================
+2025-06-12 10:53:56,980  INFO  
+Attempt 28: Current Cost = 6415.0, Target = 6978.0
+2025-06-12 10:53:56,980  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:53:56,980  INFO  
+========================= Attempt 29/30 =========================
+2025-06-12 10:54:23,865  INFO  
+Attempt 29: Current Cost = 6461.0, Target = 6978.0
+2025-06-12 10:54:23,865  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:54:23,865  INFO  
+========================= Attempt 30/30 =========================
+2025-06-12 10:54:50,503  INFO  
+Attempt 30: Current Cost = 6597.0, Target = 6978.0
+2025-06-12 10:54:50,503  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:54:50,503  INFO  
+============================================================
+2025-06-12 10:54:50,503  INFO   🎯 Self-Tuning Final Report
+2025-06-12 10:54:50,503  INFO  ============================================================
+2025-06-12 10:54:50,504  INFO  ⚠️ Exact target not met. Displaying closest result found: 6977.00 (Difference: 1.00)
+2025-06-12 10:56:15,896  INFO  ------------------------------------------------------------
+2025-06-12 10:56:15,896  INFO  ⚠️ Exact Target Not Met.
+2025-06-12 10:56:15,896  INFO  ------------------------------------------------------------
+2025-06-12 10:56:15,896  INFO  --- [Closest Result to Target] ---
+2025-06-12 10:56:15,896  INFO    - Cost: 6977.00 (Difference from target: 1.00)
+2025-06-12 10:56:15,897  INFO    - Parameters Used: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:56:15,897  INFO  
+--- [Best Overall Result (Lowest Cost)] ---
+2025-06-12 10:56:15,897  INFO    - Cost: 6310.00
+2025-06-12 10:56:15,897  INFO    - Parameters Used: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 10:56:15,897  INFO  ------------------------------------------------------------
+2025-06-12 10:56:15,897  INFO    - Target Cost: 6978.00
+2025-06-12 10:56:15,897  INFO    - Total Attempts: 30
+2025-06-12 10:56:15,897  INFO  ============================================================
+2025-06-12 10:56:15,898  INFO  Tuning history saved to tuning_history.json
+2025-06-12 10:56:15,898  INFO  
+Generating Parameter vs. Cost plots...
+2025-06-12 11:02:49,427  INFO  ========================================
+2025-06-12 11:02:49,428  INFO        TSP GA Solver - Interactive Menu
+2025-06-12 11:02:49,428  INFO  ========================================
+2025-06-12 11:05:39,354  INFO  ============================================================
+2025-06-12 11:05:39,360  INFO   🤖 Mode 1: Find Specific Cost (Self-Tuning Solver)
+2025-06-12 11:05:39,360  INFO  ============================================================
+2025-06-12 11:05:39,366  INFO  Loaded TSP instance with 48 cities.
+2025-06-12 11:05:39,366  INFO  
+========================= Attempt 1/50 =========================
+2025-06-12 11:05:42,065  INFO  
+Attempt 1: Current Cost = 10848.0, Target = 14628.0
+2025-06-12 11:05:42,066  INFO  New best cost found: 10848.0
+2025-06-12 11:05:42,066  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:42,066  INFO  
+========================= Attempt 2/50 =========================
+2025-06-12 11:05:44,765  INFO  
+Attempt 2: Current Cost = 10990.0, Target = 14628.0
+2025-06-12 11:05:44,765  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:44,765  INFO  
+========================= Attempt 3/50 =========================
+2025-06-12 11:05:47,464  INFO  
+Attempt 3: Current Cost = 11113.0, Target = 14628.0
+2025-06-12 11:05:47,464  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:47,464  INFO  
+========================= Attempt 4/50 =========================
+2025-06-12 11:05:50,138  INFO  
+Attempt 4: Current Cost = 10725.0, Target = 14628.0
+2025-06-12 11:05:50,138  INFO  New best cost found: 10725.0
+2025-06-12 11:05:50,138  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:50,138  INFO  
+========================= Attempt 5/50 =========================
+2025-06-12 11:05:52,860  INFO  
+Attempt 5: Current Cost = 11144.0, Target = 14628.0
+2025-06-12 11:05:52,860  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:52,860  INFO  
+========================= Attempt 6/50 =========================
+2025-06-12 11:05:55,553  INFO  
+Attempt 6: Current Cost = 11177.0, Target = 14628.0
+2025-06-12 11:05:55,553  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:55,553  INFO  
+========================= Attempt 7/50 =========================
+2025-06-12 11:05:58,255  INFO  
+Attempt 7: Current Cost = 11236.0, Target = 14628.0
+2025-06-12 11:05:58,256  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:05:58,256  INFO  
+========================= Attempt 8/50 =========================
+2025-06-12 11:06:00,961  INFO  
+Attempt 8: Current Cost = 10951.0, Target = 14628.0
+2025-06-12 11:06:00,962  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:00,962  INFO  
+========================= Attempt 9/50 =========================
+2025-06-12 11:06:03,653  INFO  
+Attempt 9: Current Cost = 10853.0, Target = 14628.0
+2025-06-12 11:06:03,653  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:03,653  INFO  
+========================= Attempt 10/50 =========================
+2025-06-12 11:06:06,483  INFO  
+Attempt 10: Current Cost = 11040.0, Target = 14628.0
+2025-06-12 11:06:06,483  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:06,483  INFO  
+========================= Attempt 11/50 =========================
+2025-06-12 11:06:09,210  INFO  
+Attempt 11: Current Cost = 10982.0, Target = 14628.0
+2025-06-12 11:06:09,210  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:09,210  INFO  
+========================= Attempt 12/50 =========================
+2025-06-12 11:06:11,925  INFO  
+Attempt 12: Current Cost = 10853.0, Target = 14628.0
+2025-06-12 11:06:11,926  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:11,926  INFO  
+========================= Attempt 13/50 =========================
+2025-06-12 11:06:14,648  INFO  
+Attempt 13: Current Cost = 11260.0, Target = 14628.0
+2025-06-12 11:06:14,649  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:14,649  INFO  
+========================= Attempt 14/50 =========================
+2025-06-12 11:06:17,376  INFO  
+Attempt 14: Current Cost = 10711.0, Target = 14628.0
+2025-06-12 11:06:17,376  INFO  New best cost found: 10711.0
+2025-06-12 11:06:17,376  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:17,376  INFO  
+========================= Attempt 15/50 =========================
+2025-06-12 11:06:20,099  INFO  
+Attempt 15: Current Cost = 11029.0, Target = 14628.0
+2025-06-12 11:06:20,099  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:20,099  INFO  
+========================= Attempt 16/50 =========================
+2025-06-12 11:06:22,827  INFO  
+Attempt 16: Current Cost = 10986.0, Target = 14628.0
+2025-06-12 11:06:22,827  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:22,827  INFO  
+========================= Attempt 17/50 =========================
+2025-06-12 11:06:25,546  INFO  
+Attempt 17: Current Cost = 11224.0, Target = 14628.0
+2025-06-12 11:06:25,546  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:25,546  INFO  
+========================= Attempt 18/50 =========================
+2025-06-12 11:06:28,250  INFO  
+Attempt 18: Current Cost = 11177.0, Target = 14628.0
+2025-06-12 11:06:28,250  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:28,250  INFO  
+========================= Attempt 19/50 =========================
+2025-06-12 11:06:30,989  INFO  
+Attempt 19: Current Cost = 10785.0, Target = 14628.0
+2025-06-12 11:06:30,989  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:30,990  INFO  
+========================= Attempt 20/50 =========================
+2025-06-12 11:06:33,793  INFO  
+Attempt 20: Current Cost = 11157.0, Target = 14628.0
+2025-06-12 11:06:33,793  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:33,793  INFO  
+========================= Attempt 21/50 =========================
+2025-06-12 11:06:36,597  INFO  
+Attempt 21: Current Cost = 11057.0, Target = 14628.0
+2025-06-12 11:06:36,597  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:36,597  INFO  
+========================= Attempt 22/50 =========================
+2025-06-12 11:06:39,337  INFO  
+Attempt 22: Current Cost = 10946.0, Target = 14628.0
+2025-06-12 11:06:39,337  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:39,337  INFO  
+========================= Attempt 23/50 =========================
+2025-06-12 11:06:42,074  INFO  
+Attempt 23: Current Cost = 10816.0, Target = 14628.0
+2025-06-12 11:06:42,074  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:42,074  INFO  
+========================= Attempt 24/50 =========================
+2025-06-12 11:06:44,827  INFO  
+Attempt 24: Current Cost = 10873.0, Target = 14628.0
+2025-06-12 11:06:44,827  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:44,827  INFO  
+========================= Attempt 25/50 =========================
+2025-06-12 11:06:47,541  INFO  
+Attempt 25: Current Cost = 10853.0, Target = 14628.0
+2025-06-12 11:06:47,542  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:47,542  INFO  
+========================= Attempt 26/50 =========================
+2025-06-12 11:06:50,253  INFO  
+Attempt 26: Current Cost = 11224.0, Target = 14628.0
+2025-06-12 11:06:50,254  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:50,254  INFO  
+========================= Attempt 27/50 =========================
+2025-06-12 11:06:52,963  INFO  
+Attempt 27: Current Cost = 11247.0, Target = 14628.0
+2025-06-12 11:06:52,963  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:52,963  INFO  
+========================= Attempt 28/50 =========================
+2025-06-12 11:06:55,686  INFO  
+Attempt 28: Current Cost = 10956.0, Target = 14628.0
+2025-06-12 11:06:55,686  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:55,686  INFO  
+========================= Attempt 29/50 =========================
+2025-06-12 11:06:58,440  INFO  
+Attempt 29: Current Cost = 11000.0, Target = 14628.0
+2025-06-12 11:06:58,440  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:06:58,440  INFO  
+========================= Attempt 30/50 =========================
+2025-06-12 11:07:01,153  INFO  
+Attempt 30: Current Cost = 11360.0, Target = 14628.0
+2025-06-12 11:07:01,153  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:07:01,153  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:07:01,153  INFO  
+========================= Attempt 31/50 =========================
+2025-06-12 11:07:17,360  INFO  
+Attempt 31: Current Cost = 10918.0, Target = 14628.0
+2025-06-12 11:07:17,360  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:07:17,360  INFO  
+========================= Attempt 32/50 =========================
+2025-06-12 11:07:33,647  INFO  
+Attempt 32: Current Cost = 11021.0, Target = 14628.0
+2025-06-12 11:07:33,648  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:07:33,648  INFO  
+========================= Attempt 33/50 =========================
+2025-06-12 11:07:49,934  INFO  
+Attempt 33: Current Cost = 10962.0, Target = 14628.0
+2025-06-12 11:07:49,935  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:07:49,935  INFO  
+========================= Attempt 34/50 =========================
+2025-06-12 11:08:05,945  INFO  
+Attempt 34: Current Cost = 10841.0, Target = 14628.0
+2025-06-12 11:08:05,945  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:08:05,945  INFO  
+========================= Attempt 35/50 =========================
+2025-06-12 11:08:22,308  INFO  
+Attempt 35: Current Cost = 11018.0, Target = 14628.0
+2025-06-12 11:08:22,308  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:08:22,308  INFO  
+========================= Attempt 36/50 =========================
+2025-06-12 11:08:38,472  INFO  
+Attempt 36: Current Cost = 10725.0, Target = 14628.0
+2025-06-12 11:08:38,472  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:08:38,472  INFO  
+========================= Attempt 37/50 =========================
+2025-06-12 11:08:54,725  INFO  
+Attempt 37: Current Cost = 11125.0, Target = 14628.0
+2025-06-12 11:08:54,725  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:08:54,725  INFO  
+========================= Attempt 38/50 =========================
+2025-06-12 11:09:10,948  INFO  
+Attempt 38: Current Cost = 10881.0, Target = 14628.0
+2025-06-12 11:09:10,948  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:09:10,948  INFO  
+========================= Attempt 39/50 =========================
+2025-06-12 11:09:27,220  INFO  
+Attempt 39: Current Cost = 11149.0, Target = 14628.0
+2025-06-12 11:09:27,220  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:09:27,220  INFO  
+========================= Attempt 40/50 =========================
+2025-06-12 11:09:43,343  INFO  
+Attempt 40: Current Cost = 10946.0, Target = 14628.0
+2025-06-12 11:09:43,343  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:09:43,343  INFO  
+========================= Attempt 41/50 =========================
+2025-06-12 11:09:59,623  INFO  
+Attempt 41: Current Cost = 10918.0, Target = 14628.0
+2025-06-12 11:09:59,623  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:09:59,623  INFO  
+========================= Attempt 42/50 =========================
+2025-06-12 11:10:15,764  INFO  
+Attempt 42: Current Cost = 10771.0, Target = 14628.0
+2025-06-12 11:10:15,765  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:10:15,765  INFO  
+========================= Attempt 43/50 =========================
+2025-06-12 11:10:32,316  INFO  
+Attempt 43: Current Cost = 10906.0, Target = 14628.0
+2025-06-12 11:10:32,316  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:10:32,316  INFO  
+========================= Attempt 44/50 =========================
+2025-06-12 11:10:48,560  INFO  
+Attempt 44: Current Cost = 10954.0, Target = 14628.0
+2025-06-12 11:10:48,560  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:10:48,560  INFO  
+========================= Attempt 45/50 =========================
+2025-06-12 11:11:04,556  INFO  
+Attempt 45: Current Cost = 10815.0, Target = 14628.0
+2025-06-12 11:11:04,557  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:11:04,557  INFO  
+========================= Attempt 46/50 =========================
+2025-06-12 11:11:20,801  INFO  
+Attempt 46: Current Cost = 10881.0, Target = 14628.0
+2025-06-12 11:11:20,802  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:11:20,802  INFO  
+========================= Attempt 47/50 =========================
+2025-06-12 11:11:37,214  INFO  
+Attempt 47: Current Cost = 10898.0, Target = 14628.0
+2025-06-12 11:11:37,214  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:11:37,214  INFO  
+========================= Attempt 48/50 =========================
+2025-06-12 11:11:53,433  INFO  
+Attempt 48: Current Cost = 10972.0, Target = 14628.0
+2025-06-12 11:11:53,433  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:11:53,433  INFO  
+========================= Attempt 49/50 =========================
+2025-06-12 11:12:09,650  INFO  
+Attempt 49: Current Cost = 10881.0, Target = 14628.0
+2025-06-12 11:12:09,650  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:12:09,650  INFO  
+========================= Attempt 50/50 =========================
+2025-06-12 11:12:25,952  INFO  
+Attempt 50: Current Cost = 10816.0, Target = 14628.0
+2025-06-12 11:12:25,952  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:12:25,952  INFO  
+============================================================
+2025-06-12 11:12:25,952  INFO   🎯 Self-Tuning Final Report
+2025-06-12 11:12:25,952  INFO  ============================================================
+2025-06-12 11:12:25,953  INFO  ⚠️ Exact target not met. Displaying closest result found: 11360.00 (Difference: 3268.00)
+2025-06-12 11:13:48,394  INFO  ------------------------------------------------------------
+2025-06-12 11:13:48,394  INFO  ⚠️ Exact Target Not Met.
+2025-06-12 11:13:48,394  INFO  ------------------------------------------------------------
+2025-06-12 11:13:48,394  INFO  --- [Closest Result to Target] ---
+2025-06-12 11:13:48,394  INFO    - Cost: 11360.00 (Difference from target: 3268.00)
+2025-06-12 11:13:48,394  INFO    - Parameters Used: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:13:48,394  INFO  
+--- [Best Overall Result (Lowest Cost)] ---
+2025-06-12 11:13:48,394  INFO    - Cost: 10711.00
+2025-06-12 11:13:48,394  INFO    - Parameters Used: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:13:48,394  INFO  ------------------------------------------------------------
+2025-06-12 11:13:48,394  INFO    - Target Cost: 14628.00
+2025-06-12 11:13:48,394  INFO    - Total Attempts: 50
+2025-06-12 11:13:48,394  INFO  ============================================================
+2025-06-12 11:13:48,396  INFO  Tuning history saved to tuning_history.json
+2025-06-12 11:13:48,396  INFO  
+Generating Parameter vs. Cost plots...
+2025-06-12 11:15:34,463  INFO  ========================================
+2025-06-12 11:15:34,463  INFO        TSP GA Solver - Interactive Menu
+2025-06-12 11:15:34,463  INFO  ========================================
+2025-06-12 11:16:07,583  INFO  ============================================================
+2025-06-12 11:16:07,583  INFO   🤖 Mode 1: Find Specific Cost (Self-Tuning Solver)
+2025-06-12 11:16:07,583  INFO  ============================================================
+2025-06-12 11:16:07,612  INFO  Loaded TSP instance with 130 cities.
+2025-06-12 11:16:07,612  INFO  
+========================= Attempt 1/50 =========================
+2025-06-12 11:16:13,319  INFO  
+Attempt 1: Current Cost = 6919.0, Target = 6510.0
+2025-06-12 11:16:13,319  INFO  New best cost found: 6919.0
+2025-06-12 11:16:13,319  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:13,320  INFO  
+========================= Attempt 2/50 =========================
+2025-06-12 11:16:19,145  INFO  
+Attempt 2: Current Cost = 6706.0, Target = 6510.0
+2025-06-12 11:16:19,145  INFO  New best cost found: 6706.0
+2025-06-12 11:16:19,145  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:19,145  INFO  
+========================= Attempt 3/50 =========================
+2025-06-12 11:16:24,997  INFO  
+Attempt 3: Current Cost = 6794.0, Target = 6510.0
+2025-06-12 11:16:24,997  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:24,997  INFO  
+========================= Attempt 4/50 =========================
+2025-06-12 11:16:30,822  INFO  
+Attempt 4: Current Cost = 6803.0, Target = 6510.0
+2025-06-12 11:16:30,822  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:30,822  INFO  
+========================= Attempt 5/50 =========================
+2025-06-12 11:16:36,861  INFO  
+Attempt 5: Current Cost = 6479.0, Target = 6510.0
+2025-06-12 11:16:36,861  INFO  New best cost found: 6479.0
+2025-06-12 11:16:36,861  INFO  Adjusted parameters: {'population_size': 100, 'max_gens': 1000, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:36,861  INFO  
+========================= Attempt 6/50 =========================
+2025-06-12 11:16:42,706  INFO  
+Attempt 6: Current Cost = 6859.0, Target = 6510.0
+2025-06-12 11:16:42,706  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:16:42,707  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:16:42,707  INFO  
+========================= Attempt 7/50 =========================
+2025-06-12 11:17:07,141  INFO  
+Attempt 7: Current Cost = 6550.0, Target = 6510.0
+2025-06-12 11:17:07,141  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:17:07,141  INFO  
+========================= Attempt 8/50 =========================
+2025-06-12 11:17:31,944  INFO  
+Attempt 8: Current Cost = 6331.0, Target = 6510.0
+2025-06-12 11:17:31,944  INFO  New best cost found: 6331.0
+2025-06-12 11:17:31,944  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:17:31,944  INFO  
+========================= Attempt 9/50 =========================
+2025-06-12 11:17:56,781  INFO  
+Attempt 9: Current Cost = 6422.0, Target = 6510.0
+2025-06-12 11:17:56,781  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:17:56,781  INFO  
+========================= Attempt 10/50 =========================
+2025-06-12 11:18:21,548  INFO  
+Attempt 10: Current Cost = 6506.0, Target = 6510.0
+2025-06-12 11:18:21,548  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:18:21,548  INFO  
+========================= Attempt 11/50 =========================
+2025-06-12 11:18:46,194  INFO  
+Attempt 11: Current Cost = 6580.0, Target = 6510.0
+2025-06-12 11:18:46,194  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:18:46,194  INFO  
+========================= Attempt 12/50 =========================
+2025-06-12 11:19:11,040  INFO  
+Attempt 12: Current Cost = 6431.0, Target = 6510.0
+2025-06-12 11:19:11,040  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:19:11,040  INFO  
+========================= Attempt 13/50 =========================
+2025-06-12 11:19:35,630  INFO  
+Attempt 13: Current Cost = 6544.0, Target = 6510.0
+2025-06-12 11:19:35,631  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:19:35,631  INFO  
+========================= Attempt 14/50 =========================
+2025-06-12 11:20:00,596  INFO  
+Attempt 14: Current Cost = 6455.0, Target = 6510.0
+2025-06-12 11:20:00,596  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:20:00,596  INFO  
+========================= Attempt 15/50 =========================
+2025-06-12 11:20:25,356  INFO  
+Attempt 15: Current Cost = 6442.0, Target = 6510.0
+2025-06-12 11:20:25,357  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:20:25,357  INFO  
+========================= Attempt 16/50 =========================
+2025-06-12 11:20:50,210  INFO  
+Attempt 16: Current Cost = 6430.0, Target = 6510.0
+2025-06-12 11:20:50,210  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:20:50,210  INFO  
+========================= Attempt 17/50 =========================
+2025-06-12 11:21:15,147  INFO  
+Attempt 17: Current Cost = 6569.0, Target = 6510.0
+2025-06-12 11:21:15,147  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:21:15,147  INFO  
+========================= Attempt 18/50 =========================
+2025-06-12 11:21:40,013  INFO  
+Attempt 18: Current Cost = 6599.0, Target = 6510.0
+2025-06-12 11:21:40,013  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:21:40,013  INFO  
+========================= Attempt 19/50 =========================
+2025-06-12 11:22:04,589  INFO  
+Attempt 19: Current Cost = 6440.0, Target = 6510.0
+2025-06-12 11:22:04,589  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 1500, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 4}
+2025-06-12 11:22:04,589  INFO  
+========================= Attempt 20/50 =========================
+2025-06-12 11:22:29,060  INFO  
+Attempt 20: Current Cost = 6720.0, Target = 6510.0
+2025-06-12 11:22:29,060  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:22:29,060  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 2000, 'cx_prob': 0.95, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:22:29,060  INFO  
+========================= Attempt 21/50 =========================
+2025-06-12 11:22:53,609  INFO  
+Attempt 21: Current Cost = 6327.0, Target = 6510.0
+2025-06-12 11:22:53,609  INFO  New best cost found: 6327.0
+2025-06-12 11:22:53,609  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 2000, 'cx_prob': 0.95, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 11:22:53,609  INFO  
+========================= Attempt 22/50 =========================
+2025-06-12 11:23:18,547  INFO  
+Attempt 22: Current Cost = 6715.0, Target = 6510.0
+2025-06-12 11:23:18,547  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:23:18,547  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 3000, 'cx_prob': 0.95, 'mut_prob': 0.15, 'tournament_size': 6}
+2025-06-12 11:23:18,547  INFO  
+========================= Attempt 23/50 =========================
+2025-06-12 11:24:15,116  INFO  
+Attempt 23: Current Cost = 6496.0, Target = 6510.0
+2025-06-12 11:24:15,116  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 3000, 'cx_prob': 0.95, 'mut_prob': 0.15, 'tournament_size': 6}
+2025-06-12 11:24:15,116  INFO  
+========================= Attempt 24/50 =========================
+2025-06-12 11:25:11,659  INFO  
+Attempt 24: Current Cost = 6710.0, Target = 6510.0
+2025-06-12 11:25:11,659  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:25:11,659  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 2000, 'cx_prob': 0.7, 'mut_prob': 0.1, 'tournament_size': 2}
+2025-06-12 11:25:11,659  INFO  
+========================= Attempt 25/50 =========================
+2025-06-12 11:25:33,365  INFO  
+Attempt 25: Current Cost = 7129.0, Target = 6510.0
+2025-06-12 11:25:33,365  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:25:33,365  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 2000, 'cx_prob': 0.95, 'mut_prob': 0.1, 'tournament_size': 2}
+2025-06-12 11:25:33,365  INFO  
+========================= Attempt 26/50 =========================
+2025-06-12 11:25:57,844  INFO  
+Attempt 26: Current Cost = 7196.0, Target = 6510.0
+2025-06-12 11:25:57,844  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:25:57,844  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.95, 'mut_prob': 0.1, 'tournament_size': 2}
+2025-06-12 11:25:57,844  INFO  
+========================= Attempt 27/50 =========================
+2025-06-12 11:26:16,246  INFO  
+Attempt 27: Current Cost = 7129.0, Target = 6510.0
+2025-06-12 11:26:16,246  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:26:16,246  INFO  Adjusted parameters: {'population_size': 200, 'max_gens': 1500, 'cx_prob': 0.9, 'mut_prob': 0.1, 'tournament_size': 3}
+2025-06-12 11:26:16,246  INFO  
+========================= Attempt 28/50 =========================
+2025-06-12 11:26:34,106  INFO  
+Attempt 28: Current Cost = 6676.0, Target = 6510.0
+2025-06-12 11:26:34,106  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:26:34,106  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:26:34,106  INFO  
+========================= Attempt 29/50 =========================
+2025-06-12 11:28:05,749  INFO  
+Attempt 29: Current Cost = 6653.0, Target = 6510.0
+2025-06-12 11:28:05,749  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:28:05,749  INFO  
+========================= Attempt 30/50 =========================
+2025-06-12 11:29:37,805  INFO  
+Attempt 30: Current Cost = 6579.0, Target = 6510.0
+2025-06-12 11:29:37,805  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:29:37,805  INFO  
+========================= Attempt 31/50 =========================
+2025-06-12 11:31:08,837  INFO  
+Attempt 31: Current Cost = 6456.0, Target = 6510.0
+2025-06-12 11:31:08,838  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:31:08,838  INFO  
+========================= Attempt 32/50 =========================
+2025-06-12 11:32:39,555  INFO  
+Attempt 32: Current Cost = 6537.0, Target = 6510.0
+2025-06-12 11:32:39,556  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:32:39,556  INFO  
+========================= Attempt 33/50 =========================
+2025-06-12 11:34:10,214  INFO  
+Attempt 33: Current Cost = 6425.0, Target = 6510.0
+2025-06-12 11:34:10,215  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:34:10,215  INFO  
+========================= Attempt 34/50 =========================
+2025-06-12 11:35:40,344  INFO  
+Attempt 34: Current Cost = 6465.0, Target = 6510.0
+2025-06-12 11:35:40,344  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:35:40,344  INFO  
+========================= Attempt 35/50 =========================
+2025-06-12 11:37:10,792  INFO  
+Attempt 35: Current Cost = 6528.0, Target = 6510.0
+2025-06-12 11:37:10,792  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:37:10,793  INFO  
+========================= Attempt 36/50 =========================
+2025-06-12 11:38:41,298  INFO  
+Attempt 36: Current Cost = 6543.0, Target = 6510.0
+2025-06-12 11:38:41,298  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:38:41,298  INFO  
+========================= Attempt 37/50 =========================
+2025-06-12 11:40:11,358  INFO  
+Attempt 37: Current Cost = 6454.0, Target = 6510.0
+2025-06-12 11:40:11,359  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:40:11,359  INFO  
+========================= Attempt 38/50 =========================
+2025-06-12 11:41:40,942  INFO  
+Attempt 38: Current Cost = 6542.0, Target = 6510.0
+2025-06-12 11:41:40,942  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:41:40,942  INFO  
+========================= Attempt 39/50 =========================
+2025-06-12 11:43:11,338  INFO  
+Attempt 39: Current Cost = 6608.0, Target = 6510.0
+2025-06-12 11:43:11,338  INFO  Adjusted parameters: {'population_size': 500, 'max_gens': 3000, 'cx_prob': 0.9, 'mut_prob': 0.2, 'tournament_size': 4}
+2025-06-12 11:43:11,338  INFO  
+========================= Attempt 40/50 =========================
+2025-06-12 11:44:41,737  INFO  
+Attempt 40: Current Cost = 6685.0, Target = 6510.0
+2025-06-12 11:44:41,737  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:44:41,737  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:44:41,737  INFO  
+========================= Attempt 41/50 =========================
+2025-06-12 11:45:18,477  INFO  
+Attempt 41: Current Cost = 6596.0, Target = 6510.0
+2025-06-12 11:45:18,478  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:45:18,478  INFO  
+========================= Attempt 42/50 =========================
+2025-06-12 11:45:54,333  INFO  
+Attempt 42: Current Cost = 6577.0, Target = 6510.0
+2025-06-12 11:45:54,334  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:45:54,334  INFO  
+========================= Attempt 43/50 =========================
+2025-06-12 11:46:30,513  INFO  
+Attempt 43: Current Cost = 6624.0, Target = 6510.0
+2025-06-12 11:46:30,513  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:46:30,513  INFO  
+========================= Attempt 44/50 =========================
+2025-06-12 11:47:06,780  INFO  
+Attempt 44: Current Cost = 6513.0, Target = 6510.0
+2025-06-12 11:47:06,780  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:47:06,780  INFO  
+========================= Attempt 45/50 =========================
+2025-06-12 11:47:42,833  INFO  
+Attempt 45: Current Cost = 6402.0, Target = 6510.0
+2025-06-12 11:47:42,833  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:47:42,833  INFO  
+========================= Attempt 46/50 =========================
+2025-06-12 11:48:18,939  INFO  
+Attempt 46: Current Cost = 6427.0, Target = 6510.0
+2025-06-12 11:48:18,939  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:48:18,939  INFO  
+========================= Attempt 47/50 =========================
+2025-06-12 11:48:54,724  INFO  
+Attempt 47: Current Cost = 6485.0, Target = 6510.0
+2025-06-12 11:48:54,724  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:48:54,724  INFO  
+========================= Attempt 48/50 =========================
+2025-06-12 11:49:30,738  INFO  
+Attempt 48: Current Cost = 6578.0, Target = 6510.0
+2025-06-12 11:49:30,738  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:49:30,738  INFO  
+========================= Attempt 49/50 =========================
+2025-06-12 11:50:06,732  INFO  
+Attempt 49: Current Cost = 6444.0, Target = 6510.0
+2025-06-12 11:50:06,732  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 11:50:06,732  INFO  
+========================= Attempt 50/50 =========================
+2025-06-12 11:50:43,124  INFO  
+Attempt 50: Current Cost = 6698.0, Target = 6510.0
+2025-06-12 11:50:43,124  INFO  Improvement is low. Applying aggressive parameter change.
+2025-06-12 11:50:43,124  INFO  Adjusted parameters: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.8, 'mut_prob': 0.15, 'tournament_size': 8}
+2025-06-12 11:50:43,124  INFO  
+============================================================
+2025-06-12 11:50:43,124  INFO   🎯 Self-Tuning Final Report
+2025-06-12 11:50:43,124  INFO  ============================================================
+2025-06-12 11:50:43,125  INFO  ⚠️ Exact target not met. Displaying closest result found: 6513.00 (Difference: 3.00)
+2025-06-12 16:22:42,543  INFO  ------------------------------------------------------------
+2025-06-12 16:22:42,549  INFO  ⚠️ Exact Target Not Met.
+2025-06-12 16:22:42,550  INFO  ------------------------------------------------------------
+2025-06-12 16:22:42,550  INFO  --- [Closest Result to Target] ---
+2025-06-12 16:22:42,550  INFO    - Cost: 6513.00 (Difference from target: 3.00)
+2025-06-12 16:22:42,550  INFO    - Parameters Used: {'population_size': 300, 'max_gens': 2000, 'cx_prob': 0.9, 'mut_prob': 0.15, 'tournament_size': 5}
+2025-06-12 16:22:42,550  INFO  
+--- [Best Overall Result (Lowest Cost)] ---
+2025-06-12 16:22:42,550  INFO    - Cost: 6327.00
+2025-06-12 16:22:42,550  INFO    - Parameters Used: {'population_size': 200, 'max_gens': 2000, 'cx_prob': 0.95, 'mut_prob': 0.15, 'tournament_size': 4}
+2025-06-12 16:22:42,550  INFO  ------------------------------------------------------------
+2025-06-12 16:22:42,550  INFO    - Target Cost: 6510.00
+2025-06-12 16:22:42,550  INFO    - Total Attempts: 50
+2025-06-12 16:22:42,550  INFO  ============================================================
+2025-06-12 16:22:42,552  INFO  Tuning history saved to tuning_history.json
+2025-06-12 16:22:42,552  INFO  
+Generating Parameter vs. Cost plots...

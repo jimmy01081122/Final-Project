@@ -1,0 +1,189 @@
+{
+    "best_params": {
+        "population_size": 100,
+        "max_gens": 1000,
+        "cx_prob": 0.9,
+        "mut_prob": 0.1,
+        "tournament_size": 4
+    },
+    "best_cost": 6859.0,
+    "target_cost": 6909.0,
+    "attempt_history": [
+        {
+            "attempt": 1,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 2,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6870.0
+        },
+        {
+            "attempt": 3,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6865.0
+        },
+        {
+            "attempt": 4,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6865.0
+        },
+        {
+            "attempt": 5,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6870.0
+        },
+        {
+            "attempt": 6,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6865.0
+        },
+        {
+            "attempt": 7,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 8,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 9,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 10,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 11,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 12,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6903.0
+        },
+        {
+            "attempt": 13,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6903.0
+        },
+        {
+            "attempt": 14,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6875.0
+        },
+        {
+            "attempt": 15,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6859.0
+        },
+        {
+            "attempt": 16,
+            "params": {
+                "population_size": 100,
+                "max_gens": 1000,
+                "cx_prob": 0.9,
+                "mut_prob": 0.1,
+                "tournament_size": 4
+            },
+            "cost": 6909.0
+        }
+    ]
+}
