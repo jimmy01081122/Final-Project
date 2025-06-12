@@ -1,7 +1,7 @@
 # 🧠 TSP Genetic Algorithm Solver
 
 A Traveling Salesman Problem (TSP) solver using Genetic Algorithm (GA), with auto-tuning and animation support.
-This is a modified version of [Renato Maynard's TSP-GA project](https://github.com/RenatoMaynard/TSP-Genetic-Algorithm/blob/main/ga_interactive.py), enhanced by Jimmy Chang.
+This is a modified version of [Renato Maynard's TSP-GA project](https://github.com/RenatoMaynard/TSP-Genetic-Algorithm/blob/main/ga_interactive.py), modified by Jimmy Chang.
 
 ## 📁 Repository Structure
 
