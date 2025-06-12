@@ -1,24 +1,40 @@
-/* FSM-style TSP verifier for 4 cities; single property output p 
-Circuit Statistics
-==================
-  PI           2
-  PO           1
-  LATCH       18
-  AIG        743
-------------------
-  Total      764
-  如果都沒有 → foundLower = 0 → p = 1
-  | 編號 | 路徑（CITY 0 起點）     | 總成本計算                  |
-| -- | ----------------- | ---------------------- |
-| 1  | 0 → 1 → 2 → 3 → 0 | 3 + 5 + 6 + 2 = **16** |
-| 2  | 0 → 1 → 3 → 2 → 0 | 3 + 1 + 6 + 4 = **14** |
-| 3  | 0 → 2 → 1 → 3 → 0 | 4 + 5 + 1 + 2 = **12** |
-| 4  | 0 → 2 → 3 → 1 → 0 | 4 + 6 + 1 + 3 = **14** |
-| 5  | 0 → 3 → 1 → 2 → 0 | 2 + 1 + 5 + 4 = **12** |
-| 6  | 0 → 3 → 2 → 1 → 0 | 2 + 6 + 5 + 3 = **16** |
-測試 p = 0 的情況，只需要降低 THRESHOLD 值，例如設成 THRESHOLD = 13，
-因為有成本 = 12 的路徑存在，foundLower 就會被設成 1，最後 p = 0。有需要我可以幫你改程式做模擬
-*/
+/*******************************************************************************
+ * @file       tspFSM.v
+ * @brief      用於 4 城市旅行推銷員問題（TSP）的有限狀態機（FSM）驗證器
+ * @details    此模組遍歷所有以城市 0 為起點的路徑排列，計算總成本。
+ *             若所有路徑成本都不低於定義的門檻（THRESHOLD），則輸出 property p=1；
+ *             否則若找到更低成本路徑則 p=0，表示存在更短路徑。
+ *             採同步時序設計，狀態更新與變數紀錄均依賴 clk 正緣。
+ * 
+ * @author     Jimmy Chang
+ * @version    8.0
+ * @date       2025-06-12
+ * @license    MIT
+ *
+ * Circuit Statistics (present by GV)
+ * ==================
+   PI           2
+   PO           1
+   LATCH       18
+   AIG        743
+  ------------------
+   Total      764
+
+  * Conclusion
+  * FSM-style TSP verifier for 4 cities; single property output p 
+  * 如果都沒有 → foundLower = 0 → p = 1
+  * | 編號 | 路徑（CITY 0 起點）     | 總成本計算                  |
+  * | -- | ----------------- | ---------------------- |
+  * | 1  | 0 → 1 → 2 → 3 → 0 | 3 + 5 + 6 + 2 = **16** |
+  * | 2  | 0 → 1 → 3 → 2 → 0 | 3 + 1 + 6 + 4 = **14** |
+  * | 3  | 0 → 2 → 1 → 3 → 0 | 4 + 5 + 1 + 2 = **12** |
+  * | 4  | 0 → 2 → 3 → 1 → 0 | 4 + 6 + 1 + 3 = **14** |
+  * | 5  | 0 → 3 → 1 → 2 → 0 | 2 + 1 + 5 + 4 = **12** |
+  * | 6  | 0 → 3 → 2 → 1 → 0 | 2 + 6 + 5 + 3 = **16** |
+  * 測試 p = 0 的情況，只需要降低 THRESHOLD 值，例如設成 THRESHOLD = 13，
+  * 因為有成本 = 12 的路徑存在，foundLower 就會被設成 1，最後 p = 0。
+ ******************************************************************************/
+
 `define COST_0_1    8'd3
 `define COST_0_2    8'd4
 `define COST_0_3    8'd2
@@ -31,7 +47,7 @@ Circuit Statistics
 `define COST_3_0    8'd2
 `define COST_3_1    8'd1
 `define COST_3_2    8'd6
-`define THRESHOLD   8'd13 // change this to test different thresholds
+`define THRESHOLD   8'd12/ change this to test different thresholds
 
 module tspFSM (
     output p,       // property output (1 if no tour cost < THRESHOLD)
