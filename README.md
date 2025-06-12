@@ -1,7 +1,3 @@
-以下是為你的專案量身打造的 **簡潔版 README**，適合放在 GitHub 首頁使用：
-
----
-
 # 🧠 TSP Genetic Algorithm Solver
 
 A Traveling Salesman Problem (TSP) solver using Genetic Algorithm (GA), with auto-tuning and animation support.
